@@ -3,9 +3,9 @@ const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 module.exports = {
     VERSION: 'V 1.0.0', // bot version
-    SESSION_ID: process.env.SESSION_ID || '',//enter your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~H27WHUeNq8bCzzSZJYWO+Toyf8FdlZIIOKeC',//enter your ssid to run bot
     MONGO_URL : process.env.MONGO_URI,//mongo url;
-    PASSWORD: process.env.PASSWORD || '', //set passworkd to use 18+ plugins pss = inrl-bot~md
+    PASSWORD: process.env.PASSWORD || 'kawee123', //set passworkd to use 18+ plugins pss = inrl-bot~md
     REACT : process.env.REACT || 'false', //to react  almsg automaticaly
     WARNCOUND : process.env.WARNCOUND || "5", // to kick a person by war cound
     GROUP_CHAT : process.env.GROUP_CHAT || 'false', // to set chat bot on grp
