@@ -3,7 +3,7 @@ const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 module.exports = {
     VERSION: 'V 1.0.0', // bot version
-    SESSION_ID: process.env.SESSION_ID || 'inrl~BaAdgV0hTmbXy6ASuGpSXmRyAIlVUaIBln9Q',//enter your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~dSoxtmQ22awAbirELQNRD+Vfr5QmtF8qjo/H',//enter your ssid to run bot
     MONGO_URL : process.env.MONGO_URI,//mongo url;
     PASSWORD: process.env.PASSWORD || '123SSSsss@#*', //set passworkd to use 18+ plugins pss = inrl-bot~md
     REACT : process.env.REACT || ,'true' //to react  almsg automaticaly
