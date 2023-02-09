@@ -29,7 +29,7 @@ module.exports = {
         MENSION_TEXT : process.env.MENSION_TEXT || 'inrl-md,edit this and set your data, https://chat.whatsapp.com/CUJuk1xPEpR8av9h7DDGNO'
     },
     LANG : (process.env.LANGUAG || 'EN').toLowerCase(), //values are ml, en only
-    OWNER : process.env.OWNER || "917593919575",// bot owner
+    OWNER : process.env.OWNER || "94781536595",// bot owner
     BRANCH: 'master',//nothing😉
     PROFILE_STATUS : process.env.PROFILE_STATUS || "💗 ᴀᴜᴛᴏ ᴍᴀᴛɪᴄ ʙɪᴏ ʙy ɪɴʀʟ-ʙᴏᴛ-ᴍᴅ",// profile status updating value
     HEROKU: {
