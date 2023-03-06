@@ -9,25 +9,10 @@
 			"required": true,
 			"value": "false"
 		},
-		"MENSION_IMG": {
-			"description": "to show your fav images while somone mension you",
-			"required": false,
-			"value": "https://images.wallpaperscraft.com/image/single/ball_planet_shroud_136916_1440x2560.jpg,  https://images.wallpaperscraft.com/image/single/ball_glow_hand_190683_1440x2560.jpg,  https://images.wallpaperscraft.com/image/single/ball_hands_glow_166373_1440x2560.jpg"
-		},
-		"MENSION_AUDIO": {
-			"description": "to show your fav audios while somone mension you",
-			"required": false,
-			"value": "https://i.imgur.com/TATbNAj.mp4,https://i.imgur.com/DgyG7ag.mp4,https://i.imgur.com/vw0nuWR.mp4,https://i.imgur.com/bMZlBuq.mp4,https://i.imgur.com/bMZlBuq.mp4,https://i.imgur.com/luPhKz1.mp4,https://i.imgur.com/cyqsJfa.mp4,https://i.imgur.com/TnSemG3.mp4,https://i.imgur.com/8aps3Mr.mp4,https://i.imgur.com/eVJGqKW.mp4,https://i.imgur.com/5pxs4N2.mp4"
-		},
 		"MONGO_URL": {
 			"description": "enter db url to work the bot without limit",
 			"required": false,
-			"value": "false"
+			"value": ""
 		}
-	},
-	"addons": [
-		{
-			"plan": "heroku-postgresql"
-		}
-	]
+	}
 }
