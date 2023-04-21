@@ -15,7 +15,7 @@ inrl({
     sucReact: "💯",
     category: ["system", "all"],
     type: 'whatsapp',
-    fromMe :true
+    fromMe :true,
     usage: "to rate your question in  a group, ex:- vote heding, option1,option2,etc..",
     onlyGroup: true
 }, async (message, client, text, cmd, store) => {
@@ -27,7 +27,7 @@ inrl({
     sucReact: "💯",
     category: ["system", "all"],
     type: 'whatsapp',
-    fromMe :true
+    fromMe :true,
     usage: "to rate your question in  a group, ex:- vote heding, option1,option2,etc..",
 }, async (message, client, text) => {
     return await send_poll(message, client, text);
