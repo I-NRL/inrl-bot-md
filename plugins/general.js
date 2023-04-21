@@ -102,7 +102,7 @@ inrl({
 }, async (message, client, match) => {
     const groupMetadata = await client.groupMetadata(message.from).catch(e => {})
     const participants = await groupMetadata.participants
-    let admins = await participants.filter(v => v.admin !== null).map(v => v.id) : ''
+    let admins = await participants.filter(v => v.admin !== null).map(v => v.id)
     let msg = "╭─❮ ʜᴇy ᴀʟʟ 😛🪄 ❯ ─⊷❍\n",
         ext;
     let count = 1;
