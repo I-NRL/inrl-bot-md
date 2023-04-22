@@ -1,12 +1,11 @@
 const { delay } = require("@adiwajshing/baileys");
-const {inrl} = require("../lib/");
+const {inrl,getVar} = require("../lib/");
 const fs = require("fs");
 const path = require("path");
-const {getVar} = require('../lib/database/variable');
 
 inrl(
   {
-    pattern: [ "sticker"],
+    pattern: "sticker",
     desc: "It cnvert image to sticker",
     sucReact: "🔁",
     category: ["all", "create"],
@@ -18,7 +17,7 @@ inrl(
   let {STICKER_DATA} = data.data[0];
     try {
       if (/image|video|sticker/.test(message.client.mime)) {
-        let download = await message.quoted.download();
+        let download = await client.downloadMediaMessage(message);
         client.sendFile(message.from, download, "", message, {
           asSticker: true,
           author: STICKER_DATA.split(',')[0],
@@ -52,9 +51,7 @@ inrl(
       }
     } catch (error) {
       return await message.send(
-        JSON.stringify(
         error
-        )
       );
     }
   }
