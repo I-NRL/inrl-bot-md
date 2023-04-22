@@ -16,46 +16,16 @@ inrl(
   let data = await getVar();
   let {STICKER_DATA} = data.data[0];
     try {
-      if (/image|video|sticker/.test(message.client.mime)) {
-        let download = await client.downloadMediaMessage(message);
-        client.sendFile(message.from, download, "", message, {
-          asSticker: true,
-          author: STICKER_DATA.split(',')[0],
-          packname: STICKER_DATA.split(',')[1],
-          categories: ["😄", "😊"],
-        });
-      } else if (message.quoted && message.quoted.type == "templateMessage") {
-        let _message =
-          message.quoted.imageMessage || message.quoted.videoMessage;
-        let download = await client.downloadMediaMessage(_message);
-        client.sendFile(message.from, download, "", message, {
-          asSticker: true,
-          author: STICKER_DATA.split(',')[0],
-          packname: STICKER_DATA.split(',')[1],
-          categories: ["😄", "😊"],
-        });
-      } else if (message.quoted && message.quoted.type == "buttonsMessage") {
-        let _message =
-          message.quoted.imageMessage || message.quoted.videoMessage;
-        let download = await client.downloadMediaMessage(_message);
-        client.sendFile(message.from, download, "", message, {
-          asSticker: true,
-          author: STICKER_DATA.split(',')[0],
-          packname: STICKER_DATA.split(',')[1],
-          categories: ["😄", "😊"],
-        });
-      } else if (message.quoted && message.quoted.type == "buttonsMessage") {
-        let _message =
-          message.quoted.imageMessage || message.quoted.videoMessage;
-        let download = await client.downloadMediaMessage(_message);
-        client.sendFile(message.from, download, "", message, {
-          asSticker: true,
-          author: STICKER_DATA.split(',')[0],
-          packname: STICKER_DATA.split(',')[1],
-          categories: ["😄", "😊"],
-        });
-      } else if (message.quoted) {
+     if (message.quoted) {
         let download = await message.quoted.download();
+        client.sendFile(message.from, download, "", message, {
+          asSticker: true,
+          author: STICKER_DATA.split(',')[0],
+          packname: STICKER_DATA.split(',')[1],
+          categories: ["😄", "😊"],
+        });
+      } else if (/image|video|sticker/.test(message.client.mime)) {
+        let download = await client.downloadMediaMessage(message);
         client.sendFile(message.from, download, "", message, {
           asSticker: true,
           author: STICKER_DATA.split(',')[0],
