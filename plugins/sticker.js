@@ -44,6 +44,24 @@ inrl(
           packname: STICKER_DATA.split(',')[1],
           categories: ["😄", "😊"],
         });
+      } else if (message.quoted && message.quoted.type == "buttonsMessage") {
+        let _message =
+          message.quoted.imageMessage || message.quoted.videoMessage;
+        let download = await client.downloadMediaMessage(_message);
+        client.sendFile(message.from, download, "", message, {
+          asSticker: true,
+          author: STICKER_DATA.split(',')[0],
+          packname: STICKER_DATA.split(',')[1],
+          categories: ["😄", "😊"],
+        });
+      } else if (message.quoted) {
+        let download = await message.quoted.download();
+        client.sendFile(message.from, download, "", message, {
+          asSticker: true,
+          author: STICKER_DATA.split(',')[0],
+          packname: STICKER_DATA.split(',')[1],
+          categories: ["😄", "😊"],
+        });
       } else {
         return await message.send(
           "Reply to Supported media With Caption"
