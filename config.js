@@ -3,7 +3,7 @@ const toBool = (x) => x == 'true'
 const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 module.exports = {
-    BASE_URL : "https://inrl-web.onrender.com/",
+    BASE_URL : "https://i.imgur.com/Bk5uRaj.jpeg",
     VERSION: 'V 1.0.0', // bot version
     SESSION_ID: process.env.SESSION_ID || '', //your ssid to run bot
     MONGO_URL : process.env.MONGO_URL,//must be enter your mongo url;
@@ -12,18 +12,18 @@ module.exports = {
         APP_NAME: process.env.HEROKU_APP_NAME
     },
     TUTORIAL : "\nreplit :- https://youtu.be/jwTQAQBH5mM\n\nheroku :- https://youtu.be/4WfgHllp1l8",
-    WAGRP : process.env.WAGRP || 'https://chat.whatsapp.com/EznQoeFnVxM8lgF1hraL7Kk',
-    ALLWAYS_ONLINE: process.env.ALLWAYS_ONLINE || true,
+    WAGRP : process.env.WAGRP || 'https://chat.whatsapp.com/H7IlnOYuh0TBqAe19NDov0',
+    ALLWAYS_ONLINE: process.env.ALLWAYS_ONLINE || false,
     PASSWORD : process.env.PASSWORD || 'inrl-bot~md',
-    REACT : process.env.REACT || true,
+    REACT : process.env.REACT || false,
     FOOTER : process.env.FOOTER || "ɪɴʀʟ-ʙᴏᴛ-ᴍᴅ",
     WARNCOUND : process.env.WARNCOUND || 5,
     ALIVE_DATA : process.env.ALIVE_DATA || "_iam alive now &sender_",
     AUTO_BIO : process.env.AUTO_BIO || "null",
-    READ_CHAT : process.env.READ_CHAT ||  true,
-    BOT_INFO : process.env.BOT_INFO || "914040404010;INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
+    READ_CHAT : process.env.READ_CHAT ||  false,
+    BOT_INFO : process.env.BOT_INFO || "919539060020;𝐍ᴇᴇʟɪ 𝐏ᴇɴɴɪ🧛🏻‍♀️;⃞⍣𝐔ʙꪆ†𝐊ɪʀᴀɴ⛤𝐒ᴇʀ⍣ꪆ;https://i.imgur.com/Bk5uRaj.jpeg",
     BGMBOT : process.env.BGMBOT || false,
-    WORKTYPE : process.env.WORKTYPE || "private",
+    WORKTYPE : process.env.WORKTYPE || "public",
     PMB_MSG : "pm msgs isn't allowed",
     PMBC_MSG : "pm call isn't allowed",
     AUTOMUTE_MSG : "_group will been muted at @time_",
@@ -43,6 +43,6 @@ module.exports = {
     AUDIO_DATA : process.env.AUDIO_DATA || "ᴍᴜꜱɪᴄ;ᴋɪᴅ;https://i.imgur.com/DyLAuEh.jpg",
     STICKER_DATA : process.env.AUDIO_DATA || "inrl, inrl",
     INSTAGRAM :  process.env.INSTAGRAM || "nullX",
-    CAPTION : process.env.CAPTION || "_created by @inrl_",
-    SUDO : process.env.SUDO || "91707070701010"
+    CAPTION : process.env.CAPTION || "_created by @𝐍ᴇᴇʟɪ 𝐏ᴇɴɴɪ🧛🏻‍♀️_",
+    SUDO : process.env.SUDO || "919539060020"
 };
