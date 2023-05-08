@@ -2,7 +2,7 @@ const toBool = (x) => x == 'true'
 const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || '', //your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~3607f9uNUe76a917e3348f2a69f7dc92d778', //your ssid to run bot
     MONGO_URL : process.env.MONGO_URL,//must be enter your mongo url;
     HEROKU: {
         API_KEY: process.env.HEROKU_API_KEY,
@@ -17,22 +17,22 @@ module.exports = {
     GIT : "https://github.com/inrl-official/inrl-bot-md",
     WAGRP : 'https://chat.whatsapp.com/EznQoeFnVxM8lgF1hraL7Kk',
     ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "true"),
-    REACT : toBool(process.env.REACT || "false"),
-    AUTO_BIO : toBool(process.env.AUTO_BIO || "false"),
+    REACT : toBool(process.env.REACT || "true"),
+    AUTO_BIO : toBool(process.env.AUTO_BIO || "true"),
     PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
     BGMBOT : toBool(process.env.BGMBOT || "false"),
     CALL_BLOCK : toBool(process.env.CALL_BLOCK || "false"),
     STATUS_VIEW : toBool(process.env.STATUS_VIEW || "true"),
-    READ_CHAT : toBool(process.env.READ_CHAT ||  "false"),
-    AUTO_CHAT_PM : toBool(process.env.AUTO_CHAT_PM || "false"),
-    AUTO_CHAT_GRP : toBool(process.env.AUTO_CHAT_GRP || "false"),
+    READ_CHAT : toBool(process.env.READ_CHAT ||  "true"),
+    AUTO_CHAT_PM : toBool(process.env.AUTO_CHAT_PM || "true"),
+    AUTO_CHAT_GRP : toBool(process.env.AUTO_CHAT_GRP || "true"),
     FOOTER : process.env.FOOTER || "ɪɴʀʟ-ʙᴏᴛ-ᴍᴅ",
     PASSWORD : process.env.PASSWORD || 'inrl-bot~md',
     WARNCOUND : process.env.WARNCOUND || 5,
     ALIVE_DATA : process.env.ALIVE_DATA || "$text>_iam alive now &sender_",
     BOT_INFO : process.env.BOT_INFO || "914040404010;INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
-    WORKTYPE : process.env.WORKTYPE || "private",
-    PREFIX : process.env.PREFIX || false,
+    WORKTYPE : process.env.WORKTYPE || "public",
+    PREFIX : process.env.PREFIX || "true"),
     WELCOME_MSG : process.env.WELCOME_MSG || "$text>_hey bro/sis_ *&user*\nthanks for join;$image>&pp;",
     EXIT_MSG : process.env.EXIT_MSG || "$text>_goodbye _ *&user*;$image>&pp;",
     LANG : process.env.LANG || "en",
