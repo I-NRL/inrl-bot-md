@@ -16,7 +16,7 @@ module.exports = {
     AUTOUNMUTE_MSG : "_group will unmute at @time_",
     GIT : "https://github.com/inrl-official/inrl-bot-md",
     WAGRP : 'https://chat.whatsapp.com/EznQoeFnVxM8lgF1hraL7Kk',
-    ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "true"),
+    ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
     REACT : toBool(process.env.REACT || "false"),
     AUTO_BIO : toBool(process.env.AUTO_BIO || "false"),
     PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
@@ -26,11 +26,11 @@ module.exports = {
     READ_CHAT : toBool(process.env.READ_CHAT ||  "false"),
     AUTO_CHAT_PM : toBool(process.env.AUTO_CHAT_PM || "false"),
     AUTO_CHAT_GRP : toBool(process.env.AUTO_CHAT_GRP || "false"),
-    FOOTER : process.env.FOOTER || "ɪɴʀʟ-ʙᴏᴛ-ᴍᴅ",
+    FOOTER : process.env.FOOTER || "NawabZaaDaa ",
     PASSWORD : process.env.PASSWORD || 'inrl-bot~md',
     WARNCOUND : process.env.WARNCOUND || 5,
     ALIVE_DATA : process.env.ALIVE_DATA || "$text>_iam alive now &sender_",
-    BOT_INFO : process.env.BOT_INFO || "914040404010;INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
+    BOT_INFO : process.env.BOT_INFO || "923074060856;INRL-BOT-MD;INRL;https://i.imgur.com/j8Eqv2q.jpeg",
     WORKTYPE : process.env.WORKTYPE || "private",
     PREFIX : process.env.PREFIX || false,
     WELCOME_MSG : process.env.WELCOME_MSG || "$text>_hey bro/sis_ *&user*\nthanks for join;$image>&pp;",
@@ -39,8 +39,8 @@ module.exports = {
     BLOCK_CHAT : process.env.BLOCK_CHAT || "jid@g.us, jid2@g.us",//set chat similarly
     BOT_PRESENCE : process.env.BOT_PRESENCE || "recording",
     AUDIO_DATA : process.env.AUDIO_DATA || "ᴍᴜꜱɪᴄ;ᴋɪᴅ;https://i.imgur.com/DyLAuEh.jpg",
-    STICKER_DATA : process.env.AUDIO_DATA || "inrl;inrl",
-    INSTAGRAM :  process.env.INSTAGRAM || "nullX",
+    STICKER_DATA : process.env.AUDIO_DATA || "ZAIN🥰;NawabZaaDaa",
+    INSTAGRAM :  process.env.INSTAGRAM || "null",
     CAPTION : process.env.CAPTION || "_created by @inrl_",
-    SUDO : process.env.SUDO || "91707070701010"
+    SUDO : process.env.SUDO || "923074060856"
 };
