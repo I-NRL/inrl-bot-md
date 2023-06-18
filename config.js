@@ -15,7 +15,7 @@ module.exports = {
     AUTOMUTE_MSG : "_group will been muted at @time_",
     AUTOUNMUTE_MSG : "_group will unmute at @time_",
     GIT : "https://github.com/inrl-official/inrl-bot-md",
-    WAGRP : 'https://chat.whatsapp.com/ECjTvQMK5D6Bayzu6rJ7Ot',
+    WAGRP : 'https://chat.whatsapp.com/HMVxyfy1mjV67029kdDxt7',
     ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "true"),
     REACT : toBool(process.env.REACT || "false"),
     AUTO_BIO : toBool(process.env.AUTO_BIO || "false"),
