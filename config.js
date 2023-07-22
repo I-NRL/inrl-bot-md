@@ -24,7 +24,7 @@ module.exports = {
     BGMBOT : toBool(process.env.BGMBOT || "false"),
     CALL_BLOCK : toBool(process.env.CALL_BLOCK || "false"),
     STATUS_VIEW : toBool(process.env.STATUS_VIEW || "true"),
-    READ_CHAT : toBool(process.env.READ_CHAT ||  "false"),
+    READ_CHAT : toBool(process.env.READ_CHAT ||  "true"),
     AUTO_CHAT_PM : toBool(process.env.AUTO_CHAT_PM || "false"),
     AUTO_CHAT_GRP : toBool(process.env.AUTO_CHAT_GRP || "false"),
     FOOTER : process.env.FOOTER || "ɪɴʀʟ-ʙᴏᴛ-ᴍᴅ",
