@@ -2,9 +2,7 @@
 
 <p align="center">  
   <a href="https://inrl-web.onrender.com/info/wagroup">
-    <img alt=INRL-MD height="250" src="https://inrl-web.onrender.com/info/bot/status.jpeg">
-</a> 
-</p>
+
 
 ## _Support this project: [Buy Me A Coffee](https://inrl-web.onrender.com/support/donate) 💖_
   
