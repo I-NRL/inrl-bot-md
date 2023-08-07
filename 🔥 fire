@@ -1,0 +1,110 @@
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+// Set to store the users whose statuses have been replied to
+const repliedStatusUsers = new Set();
+
+// Set to toggle auto reaction and auto status reply
+let autoReactionEnabled = true;
+let autoStatusReplyEnabled = true;
+
+// ... (your existing code)
+
+// Function to perform a Google search using scraping
+async function performGoogleSearch(query, searchType) {
+  try {
+    const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+    const response = await axios.get(searchUrl);
+
+    const $ = cheerio.load(response.data);
+
+    if (searchType === 'text') {
+      const snippet = $('div.s').first().text();
+      return snippet;
+    } else if (searchType === 'image') {
+      const imageLink = $('img').first().attr('src');
+      return imageLink;
+    } else if (searchType === 'video') {
+      const videoLink = $('a').attr('href');
+      return videoLink;
+    }
+  } catch (error) {
+    console.error('Error in performGoogleSearch:', error);
+    return null;
+  }
+}
+
+// ... (your existing code)
+
+// Command to perform a Google search
+client.on('message', async (message) => {
+  try {
+    const parts = message.body.split(' ');
+    const command = parts[0].toLowerCase();
+
+    if (command === 'google') {
+      const query = parts.slice(1).join(' ');
+      const searchResults = await performGoogleSearch(query, 'text');
+
+      if (searchResults) {
+        await message.reply(searchResults);
+      } else {
+        await message.reply('No search results found.');
+      }
+    } else if (command === 'google img') {
+      const query = parts.slice(2).join(' ');
+      const searchResults = await performGoogleSearch(query, 'image');
+
+      if (searchResults) {
+        await message.reply(searchResults);
+      } else {
+        await message.reply('No image search results found.');
+      }
+    } else if (command === 'google vid') {
+      const query = parts.slice(2).join(' ');
+      const searchResults = await performGoogleSearch(query, 'video');
+
+      if (searchResults) {
+        await message.reply(searchResults);
+      } else {
+        await message.reply('No video search results found.');
+      }
+    }
+
+    // Auto reactions with emojis and auto status reply
+    if (autoStatusReplyEnabled && (message.type === MessageType.image || message.type === MessageType.video)) {
+      // Check if the user's status has already been replied to in the last 24 hours
+      const userId = message.sender.jid;
+      if (!repliedStatusUsers.has(userId)) {
+        // Generate a random reply message
+        const randomReplies = ['☺️ Thanks for the status update.', 'View my status also 🤝 ', 'I always enjoy your status 👻 keep uploading more' , '🙌 Nice one today' , 'The most impressive status today 😜'];
+        const randomIndex = Math.floor(Math.random() * randomReplies.length);
+        const replyMessage = randomReplies[randomIndex];
+
+        // Reply to the user's status
+        await message.reply(replyMessage);
+
+        // Add the user to the repliedStatusUsers set and set a timeout for 24 hours
+        repliedStatusUsers.add(userId);
+        setTimeout(() => {
+          repliedStatusUsers.delete(userId);
+        }, 24 * 60 * 60 * 1000); // 24 hours in milliseconds
+      }
+    }
+
+    if (autoReactionEnabled) {
+      // Generate a random emoji
+      const emojis = ['😄', '👍', '❤️', '🎉', '🤥' , '🚼' , '🫣' , '🫃' , '👳🏾‍♂️' , '🙂' ];
+      const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+
+      // React to the message with the random emoji
+      await message.react(randomEmoji);
+    }
+
+    // ... (rest of your autoReactAndReply function)
+  } catch (error) {
+    console.error('Error in message handler:', error);
+  }
+});
+
+// ... (rest of your code)
