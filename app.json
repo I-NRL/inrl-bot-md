@@ -7,7 +7,7 @@
 	"repository": "https://github.com/inrl-official/inrl-bot-md",
 	"stack": "container",
 	"env": {
-	"SESSION_ID": {
+	"SESSION_ID": {inrl~ea8a7wrtH2ed7a63d210fcf654a72ccb5fcb
 		"description": "to run the bot",
 		"required": true
 		},
