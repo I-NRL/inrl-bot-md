@@ -36,8 +36,8 @@ module.exports = {
     AUTO_CHAT_GRP : toBool(process.env.AUTO_CHAT_GRP || "false"),
     WARNCOUND : process.env.WARNCOUND || 5,
     ALIVE_DATA : process.env.ALIVE_DATA || "$text>_iam alive now &sender_",
-    BOT_INFO : process.env.BOT_INFO || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
-    WORKTYPE : process.env.WORKTYPE || "private",
+    BOT_INFO : process.env.BOT_INFO || "SIMI AI;AS;https://i.imgur.com/joJXrRD.jpeg",
+    WORKTYPE : process.env.WORKTYPE || "public",
     PREFIX : process.env.PREFIX || false,
     WELCOME_MSG : process.env.WELCOME_MSG || "$text>_hey bro/sis_ *&user*\nthanks for join;$image>&pp;",
     EXIT_MSG : process.env.EXIT_MSG || "$text>_goodbye _ *&user*;$image>&pp;",
@@ -46,5 +46,5 @@ module.exports = {
     BOT_PRESENCE : process.env.BOT_PRESENCE || "recording",
     AUDIO_DATA : process.env.AUDIO_DATA || "ᴍᴜꜱɪᴄ;ᴋɪᴅ;https://i.imgur.com/DyLAuEh.jpg",
     STICKER_DATA : process.env.AUDIO_DATA || "inrl;inrl",
-    SUDO : process.env.SUDO || "917090806050"
+    SUDO : process.env.SUDO || "917002015750,4520384655,14844771537"
 };
