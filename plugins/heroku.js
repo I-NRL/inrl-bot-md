@@ -1,4 +1,3 @@
-//https://github.com/fasweeh-fazzz/faz/blob/master/plugins/updater.js
 const simpleGit = require('simple-git');
 const git = simpleGit();
 const Config = require('../config');
@@ -39,9 +38,9 @@ inrl({
     try {
         if (!m.client.text) {
             return await m.sock.sendMessage(m.from, {
-                text: GenListMessage(lang.HEROKU.UPDATE_ARGS.split(",")[0], [lang.HEROKU.UPDATE_ARGS.split(",")[1], lang.HEROKU.UPDATE_ARGS.split(",")[2]])
+                text: GenListMessage(lang.HEROKU.UPDATE_ARGS.split(",")[0], ["update now", "update check"])
             })
-        } else if (m.client.text.includes(lang.HEROKU.UPDATE_ARGS.split(",")[1])) {
+        } else if (m.client.text.includes("now")) {
             await git.fetch();
             let commits = await git.log(['master' + '..origin/' + 'master']);
             if (commits.total === 0) {
@@ -68,7 +67,7 @@ inrl({
                 await git.push('heroku', 'master');
                 return await m.send("successfully updated");
             }
-        } else if (m.client.text.includes(lang.HEROKU.UPDATE_ARGS.split(",")[2])) {
+        } else if (m.client.text.includes("check")) {
             await git.fetch();
             let commits = await git.log(['master' + '..origin/' + 'master']);
             if (commits.total === 0) {

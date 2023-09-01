@@ -47,7 +47,7 @@ inrl({
     on: "text",
     fromMe: true
 }, async (m, text, data) => {
-    if(!m.reply_message.fromMe || !m.reply_message.text) return;
+    if(!m.reply_message?.fromMe || !m.reply_message?.text) return;
     if(!m.reply_message.text.includes(lang.SETTINGS.TO_UPDATE)) return;
     match = m.client.body.toLowerCase();
     if (!match.includes(lang.SETTINGS.LIST.toLowerCase())) return;
@@ -71,14 +71,14 @@ inrl({
             REACT
         } = data;
         return await m.sock.sendMessage(m.from, {
-            text: GenListMessage(`status : ${REACT}`, [`REACT ALL${REACT== "true"? ': DEACTIVATE ':': ACTIVATE'}`])
+            text: GenListMessage(`status : ${REACT}`, [`REACT ALL ${REACT== "true"? ': DEACTIVATE ':': ACTIVATE'}`])
         })
     } else if (match == lang.SETTINGS.REACT_CMD.toLowerCase()) {
         const {
             REACT_CMD
         } = data;
         return await m.sock.sendMessage(m.from, {
-            text: GenListMessage(`status : ${REACT_CMD}`, [`REAC CMD ${REACT_CMD== "true"? ': DEACTIVATE ':': ACTIVATE'}`])
+            text: GenListMessage(`status : ${REACT_CMD}`, [`REACT CMD ${REACT_CMD== "true"? ': DEACTIVATE ':': ACTIVATE'}`])
         })
     } else if (match == lang.SETTINGS.REACT.toLowerCase()) {
         const {
@@ -256,16 +256,21 @@ inrl({
         updt = updt == "true" ? 'false' : 'true';
         await UpdateVariable("ADMIN_SUDO_ACCESS", updt, m.client.user.number);
         return await m.reply("_*requested to the db*_");
-    } else if (match.includes('reaction')) {
+    } else if (match.includes('react all')) {
         let updt = match.split(" ").pop();
         updt = updt == "true" ? 'false' : 'true';
         await UpdateVariable("REACT", updt, m.client.user.number);
         return await m.reply("_*requested to the db*_");
-    } else if (match.includes('change bio')) {
+    } else if (match.includes('react cmd')) {
         let updt = match.split(" ").pop();
         updt = updt == "true" ? 'false' : 'true';
-        await UpdateVariable("AUTO_BIO", updt, m.client.user.number);
-        return await m.reply("_*requested to the db*_\n```try restart to activate```");
+        await UpdateVariable("REACT_CMD", updt, m.client.user.number);
+        return await m.reply("_*requested to the db*_");
+    } else if (match.includes('react emoji')) {
+        let updt = match.split(" ").pop();
+        updt = updt == "true" ? 'false' : 'true';
+        await UpdateVariable("REACT_EMOJI", updt, m.client.user.number);
+        return await m.reply("_*requested to the db*_");
     } else if (match.includes('read chat')) {
         let updt = match.split(" ").pop();
         updt = updt == "true" ? 'false' : 'true';
@@ -295,6 +300,11 @@ inrl({
         let updt = match.split(" ").pop();
         updt = updt == "true" ? 'false' : 'true';
         await UpdateVariable("STATUS_VIEW", updt, m.client.user.number);
+        return await m.reply("_*requested to the db*_");
+    } else if (match.includes('save status')) {
+        let updt = match.split(" ").pop();
+        updt = updt == "true" ? 'false' : 'true';
+        await UpdateVariable("SAVE_STATUS", updt, m.client.user.number);
         return await m.reply("_*requested to the db*_");
     } else if (match.includes('chat bot in pm')) {
         let updt = match.split(" ").pop();

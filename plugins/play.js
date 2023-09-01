@@ -52,7 +52,7 @@ inrl({
 inrl({
 	on: "text"
 }, async (m, match, data) => {
-	if (!m.reply_message.fromMe || !m.reply_message.text) return;
+	if (!m.reply_message?.fromMe || !m.reply_message?.text) return;
 	if (!m.reply_message.text.includes('_Send number as reply to download_')) return;
 	try {
 		if (m.client.body.includes("• audio document")) {
