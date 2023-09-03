@@ -92,7 +92,18 @@ inrl({
     type: "audio-edit"
 }, async (message) => {
     if (!message.quoted.audioMessage) return message.reply(lang.BASE.NEED.format("audio message"));
-    return await sendSlowAudio(message)
+    
+    try {
+        // هنا يمكنك تنفيذ تحسينات لدالة sendSlowAudio
+        await sendSlowAudio(message);
+
+        // إذا كانت العملية ناجحة، يمكنك إرسال رد ناجح أو رمز إشارة بنجاح
+        // message.reply("تم معالجة الصوت بنجاح: ✅");
+    } catch (error) {
+        // إذا حدث خطأ، يمكنك التعامل معه وإرسال رسالة خطأ إذا كان ذلك ضروريًا
+        console.error("حدث خطأ: ", error);
+        message.reply("حدث خطأ أثناء معالجة الصوت. يرجى المحاولة مرة أخرى.");
+    }
 });
 inrl({
     pattern: 'blown',
