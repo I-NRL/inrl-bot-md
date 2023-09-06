@@ -3,7 +3,7 @@ const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 process.env.NODE_OPTIONS = '--max_old_space_size=2560'//2.5
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || 'inrl~49ae6fk116fa3b3ae55c8af2e63fe5dc1024', //your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~7565eggn86dcf1ca0b41ee0d74576854f2d7', //your ssid to run bot
     MONGO_URL : process.env.MONGO_URL||"mongodb+srv://umarnewid1:Um_030300@cluster0.mrzz9sr.mongodb.net/?retryWrites=true&w=majority",//must be enter your mongo url;
     HEROKU: {
         API_KEY: process.env.HEROKU_API_KEY,
@@ -15,7 +15,7 @@ module.exports = {
     REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
     BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
     ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "true"),
-    REACT : toBool(process.env.REACT || "false"),
+    REACT : toBool(process.env.REACT || "true"),
     ANTI_SPAM : toBool(process.env.ANTI_SPAM || "false"),
     SPAM_BLOCK : toBool(process.env.SPAM_BLOCK || "false"),
     AUTO_BIO : toBool(process.env.AUTO_BIO || "false"),
@@ -31,12 +31,12 @@ module.exports = {
     WARN_GROUP_SPAMMERS : toBool(process.env.WARN_GROUP_SPAMMERS || "false"),
     BAD_WORD_WARN : toBool(process.env.BAD_WORD_WARN || "false"),
     READ_CHAT : toBool(process.env.READ_CHAT ||  "false"),
-    AUTO_CHAT_PM : toBool(process.env.AUTO_CHAT_PM || "false"),
-    AUTO_CHAT_GRP : toBool(process.env.AUTO_CHAT_GRP || "false"),
+    AUTO_CHAT_PM : toBool(process.env.AUTO_CHAT_PM || "true"),
+    AUTO_CHAT_GRP : toBool(process.env.AUTO_CHAT_GRP || "true"),
     WARNCOUND : process.env.WARNCOUND || 5,
     ALIVE_DATA : process.env.ALIVE_DATA || "$text>_iam alive now &sender_",
     BOT_INFO : process.env.BOT_INFO || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg;wa_link",
-    WORKTYPE : process.env.WORKTYPE || "private",
+    WORKTYPE : process.env.WORKTYPE || "public",
     PREFIX : process.env.PREFIX || false,
     WELCOME_MSG : process.env.WELCOME_MSG || "$text>_hey bro/sis_ *&user*\nthanks for join;$image>&pp;",
     EXIT_MSG : process.env.EXIT_MSG || "$text>_goodbye _ *&user*;$image>&pp;",
