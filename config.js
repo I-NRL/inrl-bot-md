@@ -3,7 +3,7 @@ const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 process.env.NODE_OPTIONS = '--max_old_space_size=2560'//2.5
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || 'inrl~49ae6fk116fa3b3ae55c8af2e63fe5dc1024', //your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~716d1bTqPca38ca5b02690ca3d5c7c345371', //your ssid to run bot
     MONGO_URL : process.env.MONGO_URL||"mongodb+srv://umarnewid1:Um_030300@cluster0.mrzz9sr.mongodb.net/?retryWrites=true&w=majority",//must be enter your mongo url;
     HEROKU: {
         API_KEY: process.env.HEROKU_API_KEY,
