@@ -1,4 +1,4 @@
-const toBool = (x) => x == 'true'
+hiconst toBool = (x) => x == 'true'
 const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 process.env.NODE_OPTIONS = '--max_old_space_size=2560'//2.5
@@ -44,6 +44,6 @@ module.exports = {
     BLOCK_CHAT : process.env.BLOCK_CHAT || "jid@g.us, jid2@g.us",//set chat similarly
     BOT_PRESENCE : process.env.BOT_PRESENCE || "recording",
     AUDIO_DATA : process.env.AUDIO_DATA || "ᴍᴜꜱɪᴄ;ᴋɪᴅ;https://i.imgur.com/DyLAuEh.jpg",
-    STICKER_DATA : process.env.STICKER_DATA || "inrl;inrl",
+    STICKER_DATA : process.env.STICKER_DATA || "ali;ali",
     SUDO : process.env.SUDO || "917090806050"
 };
