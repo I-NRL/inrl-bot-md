@@ -16,15 +16,15 @@ module.exports = {
     BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
     ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "true"),
     REACT : toBool(process.env.REACT || "false"),
-    ANTI_SPAM : toBool(process.env.ANTI_SPAM || "false"),
-    SPAM_BLOCK : toBool(process.env.SPAM_BLOCK || "false"),
+    ANTI_SPAM : toBool(process.env.ANTI_SPAM || "true"),
+    SPAM_BLOCK : toBool(process.env.SPAM_BLOCK || "true"),
     AUTO_BIO : toBool(process.env.AUTO_BIO || "false"),
-    PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
+    PM_BLOCK : toBool(process.env.PM_BLOCK || "true"),
     BGMBOT : toBool(process.env.BGMBOT || "false"),
-    CALL_BLOCK : toBool(process.env.CALL_BLOCK || "false"),
+    CALL_BLOCK : toBool(process.env.CALL_BLOCK || "true"),
     REACT_CMD : toBool(process.env.REACT_CMD || "false"),
-    REACT_EMOJI : toBool(process.env.REACT_EMOJI || "false"),
-    SAVE_STATUS : toBool(process.env.SAVE_STATUS || "false"),
+    REACT_EMOJI : toBool(process.env.REACT_EMOJI || "true"),
+    SAVE_STATUS : toBool(process.env.SAVE_STATUS || "true"),
     STATUS_VIEW : toBool(process.env.STATUS_VIEW || "true"),
     ADMIN_SUDO_ACCESS: toBool(process.env.ADMIN_SUDO_ACCESS || "false"),
     READ_COMMANDS : toBool(process.env.READ_COMMANDS || "false"),
@@ -43,7 +43,7 @@ module.exports = {
     LANG : process.env.LANG || "en",
     BLOCK_CHAT : process.env.BLOCK_CHAT || "jid@g.us, jid2@g.us",//set chat similarly
     BOT_PRESENCE : process.env.BOT_PRESENCE || "composing",
-    AUDIO_DATA : process.env.AUDIO_DATA || "𝛪𝛮𝑅𝐿;𝛪𝛮𝑅𝐿-𝐵𝛩𝑇-𝛭𝐷;https://i.imgur.com/DyLAuEh.jpg",
-    STICKER_DATA : process.env.STICKER_DATA || "𝛪𝛮𝑅𝐿;𝛪𝛮𝑅𝐿-𝐵𝛩𝑇-𝛭𝐷",
-    SUDO : process.env.SUDO || "917090806050"
+    AUDIO_DATA : process.env.AUDIO_DATA || "𝑵𝑹 𝑹𝑨𝑺𝑯𝑼 𝑴𝑶𝑫𝒁;https://i.imgur.com/WRPbWB6.jpeg",
+    STICKER_DATA : process.env.STICKER_DATA || "𝑵𝑹 𝑹𝑨𝑺𝑯𝑼 𝑴𝑶𝑫𝒁",
+    SUDO : process.env.SUDO || "94779122081"
 };
