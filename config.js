@@ -3,7 +3,7 @@ const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 process.env.NODE_OPTIONS = '--max_old_space_size=2560'//2.5
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "", //your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || "inrl~89a74ALh001e5a73710155b71783c2e0d29b", //your ssid to run bot
     MONGO_URL : process.env.MONGO_URL||"",//must be enter your mongo url;
     HEROKU: {
         API_KEY: process.env.HEROKU_API_KEY,
@@ -13,11 +13,11 @@ module.exports = {
     PMB_MSG : "pm msgs isn't allowed",
     PMBC_MSG : "pm call isn't allowed",
     REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
-    BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
-    ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "true"),
+    BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'ture'),
+    ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
     REACT : toBool(process.env.REACT || "false"),
     ANTI_SPAM : toBool(process.env.ANTI_SPAM || "false"),
-    SPAM_BLOCK : toBool(process.env.SPAM_BLOCK || "false"),
+    SPAM_BLOCK : toBool(process.env.SPAM_BLOCK || "ture"),
     AUTO_BIO : toBool(process.env.AUTO_BIO || "false"),
     PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
     BGMBOT : toBool(process.env.BGMBOT || "false"),
@@ -36,7 +36,7 @@ module.exports = {
     WARNCOUND : process.env.WARNCOUND || 5,
     ALIVE_DATA : process.env.ALIVE_DATA || "$text>_iam alive now &sender_",
     BOT_INFO : process.env.BOT_INFO || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg;wa_link",
-    WORKTYPE : process.env.WORKTYPE || "private",
+    WORKTYPE : process.env.WORKTYPE || "public",
     PREFIX : process.env.PREFIX || ".",
     WELCOME_MSG : process.env.WELCOME_MSG || "false",
     EXIT_MSG : process.env.EXIT_MSG || "false",
@@ -45,5 +45,5 @@ module.exports = {
     BOT_PRESENCE : process.env.BOT_PRESENCE || "composing",
     AUDIO_DATA : process.env.AUDIO_DATA || "𝛪𝛮𝑅𝐿;𝛪𝛮𝑅𝐿-𝐵𝛩𝑇-𝛭𝐷;https://i.imgur.com/DyLAuEh.jpg",
     STICKER_DATA : process.env.STICKER_DATA || "𝛪𝛮𝑅𝐿;𝛪𝛮𝑅𝐿-𝐵𝛩𝑇-𝛭𝐷",
-    SUDO : process.env.SUDO || "917090806050"
+    SUDO : process.env.SUDO || "923229238311"
 };
