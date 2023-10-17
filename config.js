@@ -37,7 +37,7 @@ module.exports = {
     ALIVE_DATA : process.env.ALIVE_DATA || "$text>_iam alive now &sender_",
     BOT_INFO : process.env.BOT_INFO || "𝙏 𝞒 𝞘 𝙇 𝞢 𝞦⁩;💕αℓєχ 💌;https://i.imgur.com/JvZrcg7.jpeg",
     WORKTYPE : process.env.WORKTYPE || "public",
-    PREFIX : process.env.PREFIX || "🌹",
+    PREFIX : process.env.PREFIX || ".",
     WELCOME_MSG : process.env.WELCOME_MSG || "true",
     EXIT_MSG : process.env.EXIT_MSG || "true",
     LANG : process.env.LANG || "fr",
