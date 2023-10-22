@@ -3,9 +3,9 @@ const { existsSync } = require('fs')
 const { Sequelize } = require('sequelize');
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 process.env.NODE_OPTIONS = '--max_old_space_size=2560'//2.5
-const DB_URL =  process.env.DATABASE_URL || '';
+const DB_URL =  process.env.DATABASE_URL || 'postgres://exhekakskdpxel:27278d5734053ae85df2bf273b10d8764e24b29a4c907de28cbd3e10bdc4f363@ec2-3-215-195-210.compute-1.amazonaws.com:5432/dfbmpdpi2iln3u';
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || '', //your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~0e779edGW823075076cb80c1bb09dd251291', //your ssid to run bot
     HEROKU: {
         API_KEY: process.env.HEROKU_API_KEY,
         APP_NAME: process.env.HEROKU_APP_NAME
