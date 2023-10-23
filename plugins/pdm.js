@@ -24,5 +24,5 @@ inrl({
             if (!pdm) return message.reply('_Already Deactivated_');
             await removePdm(message,jid)
             return await message.reply('_deactivated_')
-    }>
+    }
 });

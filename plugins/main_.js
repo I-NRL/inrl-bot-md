@@ -26,7 +26,6 @@ inrl({
     react: "⚒️",
     type: "utility"
 }, async (message, match) => {
-    try {
         if (!message.quoted.sticker && !message.quoted.audio && !message.quoted.image && !message.quoted.video) return message.reply('reply to a sticker/audio');
         if (message.quoted.sticker || message.quoted.image || message.quoted.video) {
             match = match || STICKER_DATA;
@@ -36,21 +35,20 @@ inrl({
                 author: match.split(/[|,;]/)[1]
             });
         } else if (message.quoted.audioMessage) {
-            match = (match||'').split(/[|,;]/);
-            match =`${match[0]||AUDIO_DATA.split(/[|,;]/)[0]};${match[1]||AUDIO_DATA.split(/[|,;]/)[1]}`;
-            const AudioMeta = await AudioMetaData(await getBuffer((match[2] || AUDIO_DATA.split(/[|,;]/)[2] || 'https://t4.ftcdn.net/jpg/04/00/24/31/360_F_400243185_BOxON3h9avMUX10RsDkt3pJ8iQx72kS3.jpg').trim()), await toAudio(await message.quoted.download()), match);
+            const opt = {
+                title: match ? match.split(/[|,;]/) ? match.split(/[|,;]/)[0] : match : AUDIO_DATA.split(/[|,;]/)[0] ? AUDIO_DATA.split(/[|,;]/)[0] : AUDIO_DATA,
+                body: match ? match.split(/[|,;]/)[1] : AUDIO_DATA.split(/[|,;]/)[1],
+                image: (match && match.split(/[|,;]/)[2]) ? match.split(/[|,;]/)[2] : AUDIO_DATA.split(/[|,;]/)[2]
+            }
+            const AudioMeta = await AudioMetaData(await toAudio(await message.quoted.download()), opt);
             return await message.conn.sendMessage(message.jid, {
                 audio: AudioMeta,
-                mimetype: 'audio/mpeg',
-                fileName: text.replaceAll(' ', '-') + ".mp3"
+                mimetype: 'audio/mpeg'
             }, {
                 quoted: message
             });
         }
-    } catch (e) {
-        return await message.reply(e.toString());
-    }
-})
+    })
 inrl({
     pattern: 'emix',
     desc: lang.GENERAL.EMIX_DESC,

@@ -66,7 +66,7 @@ inrl({
 			} = await getYTInfo(result[0]);
 		        let qu = seconds<1800?"360p":"144p";
 			const ress = await downloadMp3(result[0],qu);
-			const AudioMeta = await AudioMetaData(await getBuffer(thumbnail), await toAudio(ress), title, data);
+			const AudioMeta = await AudioMetaData(await toAudio(ress),{title,image:thumbnail});
 			return await m.conn.sendMessage(m.from, {
 				document: AudioMeta,
 				mimetype: 'audio/mpeg',
@@ -85,7 +85,7 @@ inrl({
 			} = await getYTInfo(result[0]);
 		        let qu = seconds<1800?"360p":"144p";
 			const ress = await downloadMp3(result[0],qu);
-			const AudioMeta = await AudioMetaData(await getBuffer(thumbnail), await toAudio(ress), title, data);
+			const AudioMeta = await AudioMetaData(await toAudio(ress),{title,image:thumbnail});
 			return await m.conn.sendMessage(m.jid, {
 				audio: AudioMeta,
 				mimetype: 'audio/mpeg',
