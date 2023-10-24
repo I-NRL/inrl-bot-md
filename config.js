@@ -19,7 +19,7 @@ module.exports = {
     SPAM_BLOCK : toBool(process.env.SPAM_BLOCK || "false"),
     PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
     BGMBOT : toBool(process.env.BGMBOT || "false"),
-    CALL_BLOCK : toBool(process.env.CALL_BLOCK || "false"),
+    CALL_BLOCK : toBool(process.env.CALL_BLOCK || "true"),
     REACT_CMD : toBool(process.env.REACT_CMD || "false"),
     REACT_EMOJI : toBool(process.env.REACT_EMOJI || "false"),
     SAVE_STATUS : toBool(process.env.SAVE_STATUS || "false"),
