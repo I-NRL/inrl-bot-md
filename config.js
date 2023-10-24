@@ -13,7 +13,7 @@ module.exports = {
     BASE_URL : "https://inrl-web.onrender.com/",
     REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
     BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
-    ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "true"),
+    ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
     REACT : toBool(process.env.REACT || "false"),
     ANTI_SPAM : toBool(process.env.ANTI_SPAM || "false"),
     SPAM_BLOCK : toBool(process.env.SPAM_BLOCK || "false"),
