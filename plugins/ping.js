@@ -1,4 +1,4 @@
-Rconst {
+const {
        inrl,getLang
 } = require('../lib');
 let lang = getLang()
@@ -12,5 +12,5 @@ inrl({
     const start = new Date().getTime()
     const {key} = await message.reply('Ping!')
     const end = new Date().getTime()
-    return await message.editMessage(message.from,'*🌛PONG ❗* ' + (end - start) + ' ms', key);
+    return await message.editMessage(message.from,'*⚡PONG!* ' + (end - start) + ' ms', key);
 });
