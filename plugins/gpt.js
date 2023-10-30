@@ -1,27 +1,23 @@
-const {
-    inrl,
-    getLang
-} = require('../lib/'), {
-        BASE_URL
-    } = require('../config'),
-    axios = require('axios');
-    const lang = getLang()
+const { inrl, GPT } = require('../lib/');
 inrl({
-    pattern: "$gpt",
-    desc: lang.GPT.DESC,
-    react : "🤝",
-    type: "eva"
+    pattern: "gpt",
+    desc: 'get open ai chatgpt response',
+    type: "eva",
+    fromMe: true
 }, async (message, match) => {
+    if(match && match.includes('setkey')) {
+        match = match.replace('setkey','').trim();
+        if(!match) return await message.send('_please provide openai key_');
+        await GPT.set(match);
+        return await message.send('_successfully set gpt key_');
+    } else if(match && match == 'clear') {
+        await GPT.clear();
+        return await message.send('_successfully cleard_');
+    }
     try {
             match = match || message.reply_message.text;
-        if (!match) return await message.reply(lang.GPT.NEED_TEXT);
-        let {
-            data
-        } = await axios(`${BASE_URL}api/chatgpt?text=${match}`);
-        body = data.result;
-        return await message.client.sendMessage(message.from, {
-            text: body
-        });
+        if (!match) return await message.reply('_please can you provide me a task_');
+        return await message.send(await GPT.prompt(match));
     } catch (e) {
         return await message.send('_provided API is not valid_');
     }
