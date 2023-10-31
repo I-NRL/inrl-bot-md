@@ -5,17 +5,17 @@ if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 process.env.NODE_OPTIONS = '--max_old_space_size=2560'//2.5
 const DB_URL =  process.env.DATABASE_URL || '';
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || '', //your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~feff2fG887b6dd656862c7df09c1b1dbaf5c', //your ssid to run bot
     HEROKU: {
         API_KEY: process.env.HEROKU_API_KEY,
         APP_NAME: process.env.HEROKU_APP_NAME
     },
     BASE_URL : "https://inrl-web.onrender.com/",
-    REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
+    REJECT_CALL : toBool(process.env.REJECT_CALL || 'true'),
     BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
-    ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
+    ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "true"),
     REACT : toBool(process.env.REACT || "false"),
-    ANTI_SPAM : toBool(process.env.ANTI_SPAM || "false"),
+    ANTI_SPAM : toBool(process.env.ANTI_SPAM || "true"),
     SPAM_BLOCK : toBool(process.env.SPAM_BLOCK || "false"),
     PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
     BGMBOT : toBool(process.env.BGMBOT || "false"),
@@ -42,7 +42,7 @@ module.exports = {
     BOT_PRESENCE : process.env.BOT_PRESENCE || "unavailable",
     AUDIO_DATA : process.env.AUDIO_DATA || "ᴍᴜꜱɪᴄ;ᴋɪᴅ;https://i.imgur.com/DyLAuEh.jpg",
     STICKER_DATA : process.env.STICKER_DATA || "inrl;inrl",
-    SUDO : process.env.SUDO || "null",
+    SUDO : process.env.SUDO || "+1 (646) 863-4636",
     RMBG_KEY: process.env.RMBG_KEY,
     DATABASE: DB_URL ? new Sequelize(DB_URL,{dialect:'postgres',ssl:true,protocol: 'postgres', dialectOptions: {native: true,ssl:{require: true,rejectUnauthorized: false}}, logging: false}) : new Sequelize({dialect:'sqlite',storage:'./database.db',logging:false}) 
 };
