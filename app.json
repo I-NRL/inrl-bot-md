@@ -1,10 +1,10 @@
 {
-  "name": "inrl",
+  "name": "↫𝑨𝑴𝑬𝑬𝑹⛧𝑿𝑹☇ ",
   "description": "inrl-wa-bot-md",
   "keywords": [],
   "stack": "container",
   "env": {
-    "SESSION_ID": {
+    "SESSION_ID": {inrl~9b5deOUf89d4a0ed170d7da50bc445f2152f
       "description": "to run the bot",
       "required": true,
       "value": ""
@@ -14,7 +14,7 @@
       "required": true,
       "value": ""
     },
-    "HEROKU_APP_NAME": {
+    "HEROKU_APP_NAME": {↫𝑨𝑴𝑬𝑬𝑹⛧𝑿𝑹☇ 
       "description": "Exact name which you gave at the top",
       "required": true,
       "value": ""
@@ -29,7 +29,7 @@
       "required": true,
       "value": "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg"
     },
-    "PREFIX": {
+    "PREFIX": {.
       "description": "bot preifx  ., [.,!], false",
       "required": true,
       "value": "."
@@ -39,7 +39,7 @@
       "required": true,
       "value": "ᴍᴜꜱɪᴄ;ᴋɪᴅ;https://i.imgur.com/DyLAuEh.jpg"
     },
-    "STICKER_DATA": {
+    "STICKER_DATA": {🇧🇷⃞₊₉₁₇ͣ₅ͫ₃ͤͤ₀ͤ₀ͬ₆₀ᷤ₉ͤ₈ͬ₈ϟ➤⁩
       "description": "sticker data",
       "required": true,
       "value": "inrl;inrl"
@@ -54,7 +54,7 @@
       "required": false,
       "value": "false"
     },
-    "WARN": {
+    "WARN": {1
       "description": "warn count",
       "required": false,
       "value": "4"
