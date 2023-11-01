@@ -22,7 +22,6 @@ module.exports = {
     CALL_BLOCK : toBool(process.env.CALL_BLOCK || "true"),
     REACT_CMD : toBool(process.env.REACT_CMD || "false"),
     REACT_EMOJI : toBool(process.env.REACT_EMOJI || "false"),
-    SAVE_STATUS : toBool(process.env.SAVE_STATUS || "false"),
     STATUS_VIEW : toBool(process.env.STATUS_VIEW || "true"),
     ADMIN_SUDO_ACCESS: toBool(process.env.ADMIN_SUDO_ACCESS || "false"),
     READ_COMMANDS : toBool(process.env.READ_COMMANDS || "false"),
