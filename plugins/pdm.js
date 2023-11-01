@@ -22,7 +22,7 @@ inrl({
             return await message.reply('_activated_')
     } else if (match == "off") {
             if (!pdm) return message.reply('_Already Deactivated_');
-            await removePdm(message,jid)
+            await removePdm(message.jid)
             return await message.reply('_deactivated_')
     }
 });
