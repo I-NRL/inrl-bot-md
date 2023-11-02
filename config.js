@@ -31,7 +31,6 @@ module.exports = {
     AUTO_CHAT_PM : toBool(process.env.AUTO_CHAT_PM || "false"),
     AUTO_CHAT_GRP : toBool(process.env.AUTO_CHAT_GRP || "false"),
     WARNCOUND : process.env.WARNCOUND || 5,
-    AUTO_BIO : process.env.AUTO_BIO || "false",
     ALIVE_DATA : process.env.ALIVE_DATA || "_iam alive now &sender_",
     BOT_INFO : process.env.BOT_INFO || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
     WORKTYPE : process.env.WORKTYPE || "private",
