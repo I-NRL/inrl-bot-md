@@ -28,10 +28,7 @@ inrl({
                 await message.send({
                         url: pp
                 }, {
-                        caption: `*Name :* @${user.replace(/[^0-9]/,'')}\n*About :* ${status.status}\n*About Set Date :* ${setAt}`,
-                        contextInfo: {
-                                mentionedJid: [user]
-                        },
+                        caption: `*Name :* ${await message.getName(user)}\n*About :* ${status.status}\n*About Set Date :* ${setAt}`,
                         quoted: message.data
                 }, 'image')
         } catch (e) {
