@@ -19,7 +19,7 @@ inrl({
         const ffmpeg = ff();
         let file = './media/tools/black.jpg';
         if (match && message.isMediaURL(match)) {
-                const buff = await getBuffer(extractUrlsFromString(match));
+                const buff = await getBuffer(extractUrlsFromString(match)[0]);
                 const {
                         mime
                 } = await fromBuffer(buff);
