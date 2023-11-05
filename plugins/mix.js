@@ -1,7 +1,9 @@
 const ff = require('fluent-ffmpeg');
 const {
         inrl,
-        getBuffer
+        getBuffer,
+        toAudio,
+        extractUrlsFromString
 } = require('../lib');
 const fs = require('fs');
 const {
@@ -17,7 +19,7 @@ inrl({
         const ffmpeg = ff();
         let file = './media/tools/black.jpg';
         if (match && message.isMediaURL(match)) {
-                const buff = await getBuffer(match);
+                const buff = await getBuffer(extractUrlsFromString(match));
                 const {
                         mime
                 } = await fromBuffer(buff);
@@ -26,7 +28,7 @@ inrl({
                 fs.writeFileSync(file, buff);
         }
         audioFile = './media/audio.mp3'
-        fs.writeFileSync(audioFile, await message.reply_message.download())
+        fs.writeFileSync(audioFile, await toAudio(await message.reply_message.download()));
         ffmpeg.input(file);
         ffmpeg.input(audioFile);
         ffmpeg.output('./media/videoMixed.mp4');
