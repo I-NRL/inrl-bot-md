@@ -3,6 +3,7 @@ const {
         inrl,
         getBuffer
 } = require('../lib');
+const fs = require('fs');
 const {
         fromBuffer
 } = require('file-type');
