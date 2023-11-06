@@ -2,7 +2,6 @@ const ff = require('fluent-ffmpeg');
 const {
    inrl,
    getBuffer,
-   toAudio,
    extractUrlsFromString
 } = require('../lib');
 const {
@@ -34,7 +33,7 @@ inrl({
               fs.writeFileSync(file, buff);
       }
       const audioFile = './media/audio.mp3'
-      fs.writeFileSync(audioFile, await toAudio(await message.reply_message.download()));
+      fs.writeFileSync(audioFile, await message.reply_message.download());
       ffmpeg.input(file);
       ffmpeg.input(audioFile);
       ffmpeg.output('./media/videoMixed.mp4');
