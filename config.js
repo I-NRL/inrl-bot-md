@@ -11,6 +11,7 @@ module.exports = {
         APP_NAME: process.env.HEROKU_APP_NAME
     },
     BASE_URL : "https://inrl-web.onrender.com/",
+    BGM_DB : "null",
     REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
     BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
     ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
@@ -25,8 +26,6 @@ module.exports = {
     STATUS_VIEW : toBool(process.env.STATUS_VIEW || "true"),
     ADMIN_SUDO_ACCESS: toBool(process.env.ADMIN_SUDO_ACCESS || "false"),
     READ_COMMANDS : toBool(process.env.READ_COMMANDS || "false"),
-    WARN_GROUP_SPAMMERS : toBool(process.env.WARN_GROUP_SPAMMERS || "false"),
-    BAD_WORD_WARN : toBool(process.env.BAD_WORD_WARN || "false"),
     READ_CHAT : toBool(process.env.READ_CHAT ||  "false"),
     CHATBOT_PM : toBool(process.env.CHATBOT_PM || "false"),
     CHATBOT_GRP : toBool(process.env.CHATBOT_GRP || "false"),
