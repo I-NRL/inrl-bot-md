@@ -16,8 +16,6 @@ module.exports = {
     BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
     ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
     REACT : toBool(process.env.REACT || "false"),
-    ANTI_SPAM : toBool(process.env.ANTI_SPAM || "false"),
-    SPAM_BLOCK : toBool(process.env.SPAM_BLOCK || "false"),
     PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
     BGMBOT : toBool(process.env.BGMBOT || "false"),
     CALL_BLOCK : toBool(process.env.CALL_BLOCK || "false"),
