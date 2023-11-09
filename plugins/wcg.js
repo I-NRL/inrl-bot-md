@@ -5,7 +5,8 @@ inrl({
     pattern: "wcg",
     type: "game",
     desc: "Word Chain game",
-    fromMe: 'public'
+    fromMe: 'public',
+    onlyGroup: true
 }, async (message) => {
     const try_to_start = new WCG(message);
     try_to_start.start();
