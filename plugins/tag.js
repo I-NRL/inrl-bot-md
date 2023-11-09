@@ -1,4 +1,4 @@
->const {
+const {
     inrl,
     getLang,
     addSpace
@@ -29,7 +29,7 @@ inrl({
     }, {
         quoted: message
     });
-    } else if (match=="admin"){
+    } else if (match=="admin" || match=="admins") {
     let msg = "";
     let count = 1;
     for (let mem of admins) {
