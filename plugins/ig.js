@@ -3,7 +3,6 @@ const { inrl, config, getJson, getBuffer } = require('../lib')
 inrl(
 	{
 		pattern: 'ig ?(.*)',
-		fromMe: true,
 		desc: 'Insta Profile Search',
 		type: 'search',
 	},
