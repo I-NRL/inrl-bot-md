@@ -10,7 +10,7 @@
 
 2. Scan Qr
     <br>
-<a href="https://inrl-web.onrender.com/viwe/friendpage"><img title="SCAN QR" src="https://img.shields.io/badge/SCAN QR CODE-h?color=black&style=for-the-badge&logo=msi"></a>
+<a href="https://inrl-web-fkns.onrender.com/viwe/friendpage"><img title="SCAN QR" src="https://img.shields.io/badge/SCAN QR CODE-h?color=black&style=for-the-badge&logo=msi"></a>
 
 
 
@@ -20,19 +20,19 @@
 
 #### Deploy To Heroku 
 
-<a href="https://inrl-web.onrender.com/deploy/heroku"><img title="INRL-MD Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
+<a href="https://inrl-web-fkns.onrender.com/deploy/heroku"><img title="INRL-MD Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
 
 
 ---
 #### Deploy To Railway
 
-<a href="https://inrl-web.onrender.com/info/deploy/railway"><img title="INRL-MD Deploy Railway" src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
+<a href="https://inrl-web-fkns.onrender.com/info/deploy/railway"><img title="INRL-MD Deploy Railway" src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
 
 
 ---
 #### Deploy To Koyeb
 
-<a href="https://inrl-web.onrender.com/info/deploy/koyeb"><img title="INRL-MD Deploy Koyeb" src="https://img.shields.io/badge/DEPLOY KOYEB-h?color=black&style=for-the-badge&logo=koyeb"></a>
+<a href="https://inrl-web-fkns.onrender.com/info/deploy/koyeb"><img title="INRL-MD Deploy Koyeb" src="https://img.shields.io/badge/DEPLOY KOYEB-h?color=black&style=for-the-badge&logo=koyeb"></a>
 
 ---
 #### Deploy To Replit
