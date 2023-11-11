@@ -5,7 +5,7 @@ if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 process.env.NODE_OPTIONS = '--max_old_space_size=2560'//2.5
 const DB_URL =  process.env.DATABASE_URL || '';
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || '', //your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~62e014PUy5f95534b1216548a71cf6a00f02', //your ssid to run bot
     HEROKU: {
         API_KEY: process.env.HEROKU_API_KEY,
         APP_NAME: process.env.HEROKU_APP_NAME
@@ -13,7 +13,7 @@ module.exports = {
     BASE_URL : "https://inrl-web-fkns.onrender.com/",
     BGM_DB : process.env.BGM_DB || "null",
     REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
-    BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
+    BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'true'),
     ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
     REACT : toBool(process.env.REACT || "false"),
     PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
@@ -38,10 +38,10 @@ module.exports = {
     LANG : process.env.LANG || "en",
     PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || "null",
     BLOCK_CHAT : process.env.BLOCK_CHAT || "null",
-    BOT_PRESENCE : process.env.BOT_PRESENCE || "unavailable",
+    BOT_PRESENCE : process.env.BOT_PRESENCE || "composing",
     AUDIO_DATA : process.env.AUDIO_DATA || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
     STICKER_DATA : process.env.STICKER_DATA || "inrl;inrl",
-    SUDO : process.env.SUDO || "null",
+    SUDO : process.env.SUDO || "923065444106",
     RMBG_KEY: process.env.RMBG_KEY,
     OPEN_AI: process.env.OPEN_AI,
     ELEVENLABS: process.env.ELEVENLABS,
