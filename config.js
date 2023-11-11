@@ -10,7 +10,7 @@ module.exports = {
         API_KEY: process.env.HEROKU_API_KEY,
         APP_NAME: process.env.HEROKU_APP_NAME
     },
-    BASE_URL : "https://inrl-web.onrender.com/",
+    BASE_URL : "https://inrl-web-fkns.onrender.com/",
     BGM_DB : process.env.BGM_DB || "null",
     REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
     BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
