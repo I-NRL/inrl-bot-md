@@ -5,12 +5,7 @@ inrl({
     type: "eva",
     fromMe: true
 }, async (message, match) => {
-    if(match && match.includes('setkey')) {
-        match = match.replace('setkey','').trim();
-        if(!match) return await message.send('_please provide openai key_');
-        await GPT.set(match);
-        return await message.send('_successfully set gpt key_');
-    } else if(match && match == 'clear') {
+    if(match && match == 'clear') {
         await GPT.clear();
         return await message.send('_successfully cleard_');
     }
