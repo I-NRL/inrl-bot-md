@@ -1,4 +1,4 @@
- v const toBool = (x) => x == 'true'
+const toBool = (x) => x == 'true'
 const { existsSync } = require('fs')
 const { Sequelize } = require('sequelize');
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
