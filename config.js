@@ -1,4 +1,4 @@
-const toBool = (x) => x == 'true'
+ v const toBool = (x) => x == 'true'
 const { existsSync } = require('fs')
 const { Sequelize } = require('sequelize');
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
@@ -43,6 +43,7 @@ module.exports = {
     BOT_PRESENCE : process.env.BOT_PRESENCE || "unavailable",
     AUDIO_DATA : process.env.AUDIO_DATA || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
     STICKER_DATA : process.env.STICKER_DATA || "inrl;inrl",
+    BRAINSHOP: process.env.BRAINSHOP || '172372,nbjE0YAlyw3cpoMl',
     SUDO : process.env.SUDO || "null",
     RMBG_KEY: process.env.RMBG_KEY,
     OPEN_AI: process.env.OPEN_AI,
