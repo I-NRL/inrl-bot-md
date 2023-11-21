@@ -27,7 +27,7 @@
     "BOT_INFO": {
       "description": "baasic bot configration",
       "required": true,
-      "value": "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg"
+      "value": "INRL-BOT-MD;INRL;https://lh3.googleusercontent.com/a/ACg8ocINtOu7Ag6PzJYNwXqEjjQnvXC12av3xvEsNQHmVyODvw=s648-c-no"
     },
     "PREFIX": {
       "description": "bot preifx  ., [.,!], false",
