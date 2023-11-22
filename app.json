@@ -4,7 +4,7 @@
   "keywords": [],
   "stack": "container",
   "env": {
-    "SESSION_ID": {
+    "SESSION_ID": {inrl~8f9b0hyNqbbef43463dbc42f18e562d74d81", 
       "description": "to run the bot",
       "required": true,
       "value": ""
