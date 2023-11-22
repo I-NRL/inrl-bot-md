@@ -61,7 +61,7 @@ cd inrl-bot-md
 npm i
 npm start
 ```
- 
+inrl~8f9b0hyNqbbef43463dbc42f18e562d74d81 
  ### Support
 
 SUPPORT GROUP
