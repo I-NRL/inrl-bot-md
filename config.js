@@ -5,7 +5,7 @@ if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 process.env.NODE_OPTIONS = '--max_old_space_size=2560'//2.5
 const DB_URL =  process.env.DATABASE_URL || '';
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || '', //your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~01cf7m0sy6981986b9c2b249c2dce6259395', //your ssid to run bot
     HEROKU: {
         API_KEY: process.env.HEROKU_API_KEY,
         APP_NAME: process.env.HEROKU_APP_NAME
@@ -13,7 +13,7 @@ module.exports = {
     BASE_URL : "https://inrl-web-fkns.onrender.com/",
     BGM_URL : process.env.BGM_URL || "null",
     REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
-    BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
+    BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'true'),
     ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
     REACT : toBool(process.env.REACT || "false"),
     PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
@@ -31,7 +31,7 @@ module.exports = {
     CHATBOT_GRP : toBool(process.env.CHATBOT_GRP || "false"),
     ERROR_MSG : toBool(process.env.ERROR_MSG || "false"),
     AJOIN: toBool(process.env.AJOIN || 'false'),
-    WARNCOUND : process.env.WARNCOUND || 5,
+    WARNCOUND : process.env.WARNCOUND || 3,
     ALIVE_DATA : process.env.ALIVE_DATA || "_iam alive now &sender_",
     BOT_INFO : process.env.BOT_INFO || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
     WORKTYPE : 'prvt',//process.env.WORKTYPE || "private",
