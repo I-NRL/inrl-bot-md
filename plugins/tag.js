@@ -21,7 +21,7 @@ inrl({
         ext;
     let count = 1;
     for (let mem of participants) {
-        msg += `${addSpace(`${count}.`, 3)} @${mem.id.split('@')[0]}\n`
+        msg += `${addSpace(count++, 3)} @${mem.id.split('@')[0]}\n`
     }
     return await message.client.sendMessage(message.jid, {
         text: '```'+msg+'```',
@@ -33,7 +33,7 @@ inrl({
     let msg = "";
     let count = 1;
     for (let mem of admins) {
-        msg += `${addSpace(`${count}.`, 3)} @${mem.split('@')[0]}\n`
+        msg += `${addSpace(count++, 3)} @${mem.split('@')[0]}\n`
     }
     return await message.client.sendMessage(message.key.remoteJid, {
         text: '```'+msg+'```',
