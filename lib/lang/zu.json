@@ -1,0 +1,410 @@
+{
+    "BASE":{
+       "TEXT": "_Idinga Umbhalo ozocutshungulwa_",
+       "NEED": "_Sicela uphendule ku-{}_",
+       "FAILD": "_requst yehlulekile ngekhodi yesimo 401_",
+       "NOT_AUTHR": "_requst yehlulekile ngekhodi yesimo 501_",
+       "SUCCESS": "_*iphumelele*_",
+       "ERROR": "*Iphutha:* {}",
+       "NEED_URL": "_Nginike url_",
+       "WAIT": "_sicela ulinde, ucubungula isicelo sakho_",
+       "INVALID_URL":"_I-url enikeziwe akuyona i-Url_",
+       "DOWNLOAD": "*_downloading_*:-\n_{}_"
+    },
+    "LIST": {
+        "DESC": "ibonisa uhlu lwama-cmds anencazelo"
+    },
+    "ALIVE": {
+        "DESC": "ukuhlola i-bot iyaphila noma cha",
+        "HELP": "*uyaphila thola umlayezo ophilayo*\n\n*_ukusetha umlayezo ophilayo_*\n*womlayezo wombhalo ojwayelekile*\n```.alive $text>hey_bro_&sender;\time:&time;`` `\n\n*kwesithombe*\n```.alive $iamge>img_url;$text>hey _sis_\nate&datespeed : &speed;```\n\n*kwevidiyo*\n```.iyaphila $ ividiyo>url;```\n\n*umlayezo nge-LinkPrvew*\n```.alive $sticker>url;\n$thumbnail>url;\n$title>text;\n$body>hy;\n$mediatype>1;\n$souceurl>url;\n$mediaurl>url;```"
+    },
+    "MENU": {
+        "DESC": "ukuthola i-bot cmds"
+    },
+    "CMDS": {
+        "DESC": "ukukhombisa uhlu lwama-cmds"
+    },
+    "TTP": {
+        "DESC": "dala umbhalo phezu kwesithombe"
+    },
+    "ATTP": {
+        "DESC": "dala izitikha ezigqwayizayo"
+    },
+    "MEDIA_CMD": {
+        "SET_DESC": "misa isitika sibe ngu-cmd",
+        "DEL_DESC": "susa isitikha esingu-cmd",
+        "GET_DESC": "thola i-cmds yesitikha",
+        "NO_CMD": "*_witch cmd?_*",
+        "NOT_A_STICKER": "*phendula umlayezo wesitika ngo-cmd*\n\n*Isibonelo:* {}",
+        "CMD_ERROR": "*_Yehlulekile Ukugcina Umlayezo Wesitika Sakho!*_",
+        "CMD_LIST": "*Inani Lemiyalo Yemidiya*\n\n",
+        "NOT_FOUND": "_Awukho umyalo wesitika_"
+    },
+    "CONVERTER": {
+        "PHOTO_DESC": "guqula i-stciker ibe yisithombe",
+        "VIDEO_DESC": "guqula isitikha esigqwayizayo sibe ividiyo",
+        "AUDIO_DESC": "guqula umsindo ube i-ptt",
+        "GIF_DESC": "guqula isitikha esigqwayizayo sibe i-gif",
+        "AUDIO_EDIT_DESC": "ukuhlela okulalelwayo",
+        "MP3_DESC": "guqula ividiyo ibe umsindo"
+    },
+    "WHATSAPP": {
+        "DLT_DESC": "isusa umlayezo weqembu nge-bot",
+        "DEL_DESC": "susa umlayezo othunyelwe nge-bot",
+        "ISWA": {
+            "ISWA_DISC": "Faka inombolo ku-whatsapp",
+            "NO_NUMBER": "_Nginike inombolo_\n*Isibonelo* : {}",
+            "NOT_VALID": "_Nginike inombolo enefomethi evumelekile_\n*Isibonelo* :{}",
+            "X_LENGTH": "*Khawulela Iphutha*\n*_ungasebenzisa Ubude obungu-X bufinyelele ku-3_*",
+            "WAIT": "_Ngicela ulinde imizuzwana engu-25_",
+            "EXIST": "*Inombolo ekhona kuWhatsapp* ({}/{})\n\n",
+            "PRIVACY": "*Izilungiselelo Zobumfihlo zivuliwe* ({}/{})\n\n",
+            "NOT_FOUND": "Ayitholakali ({}/{})\n\n"
+        },
+        "NOWA": {
+            "DESC": "Inombolo yohlu ethi Thet Not Exist whatsapp",
+            "NO_NUMBER": "_Nginike inombolo_\n*Isibonelo* : {}",
+            "NOT_VALID": "_Nginike inombolo enefomethi evumelekile_\n*Isibonelo* :{}",
+            "X_LENGTH": "*Khawulela Iphutha*\n*_ungasebenzisa Ubude obungu-X bufinyelele ku-3_*",
+            "WAIT": "_Sicela Ulinde Imizuzwana emi-5_",
+            "LIST": "*Inombolo Ayikho Ku-whatsapp*\n\n*_total result_*:-{}\n"
+        }
+    },
+    "RESTART": {
+        "DESC": "qalisa kabusha i-bot",
+        "INFO": "Iqala kabusha Sicela ulinde amasekhondi ambalwa"
+    },
+    "EXTERNAL_PLUGIN": {
+        "DESC": "faka/faka uhlu lwama-plugin angaphandle",
+        "INALID": "i-url ye-plugin enavlid",
+        "INSTALLED": "_I-plugin esanda kufakwa ingu_ :{}",
+        "NO_PLUGIN": "_Ayikho i-plugin yangaphandle_",
+        "LIST": "Uhlu Lwe-Plugin Yangaphandle\n\n",
+        "REMOVE_DESC": "susa ama-plugin angaphandle",
+        "REMOVED": "_i-plugin isuswe ngempumelelo!, thayipha qala kabusha ukuze ususe i-plugin_"
+    },
+    "FANCY": {
+        "DESC": "Yakha amafonti ombhalo amahle",
+        "INFO": "Phendula umbhalo noma thayipha umbhalo ngemva komyalo ngekhodi yenombolo\n*Isibonelo* : {}"
+    },
+    "FILTERS": {
+        "DESC": "setha/thola/susa izihlungi eqenjini ",
+        "NOT_FOUND": "_*asikho isihlungi*_\n *Isibonelo* : {}",
+        "INVALID": "*kungenzeka ukuthi ayilungile ku-at!*\n*Isibonelo* :- *{}/isitikha, ividiyo, isithombe, umsindo"
+    },
+    "GPT":{
+        "DESC": "xoxa ne-gpt",
+        "NEED_TEXT": "*_Udinga umbhalo t Thola umphumela we-AI_*"
+    },
+    "USER": {
+        "JID": "thola i-JID yelungu noma umsebenzisi odlalwe kabusha",
+        "BLOCK_DESC": "vimba umuntu",
+        "UNBLOCK_DESC": "vula umuntu",
+        "PP": {
+            "DESC": "setha isithombe sephrofayili se-bot",
+            "SUCCESS": "isithombe sephrofayela sibuyekeziwe!"
+        },
+        "FULL_PP": {
+            "DESC": "setha isithombe sephrofayili se-bot nganoma yisiphi isinqumo",
+            "SUCCESS": "isithombe sephrofayela sibuyekeziwe!"
+        }
+    },
+    "GROUP": {
+        "BOT_ADMIN": "*_I-Bot kumele ibe yi-Admin_*",
+        "PROMOTE": {
+            "DESC": "phromotha umsebenzisi",
+            "INFO": "{} Unyusiwe Njengomphathi"
+        },
+        "DEMOTE": {
+            "DESC": "dicilela phansi umsebenzisi",
+            "INFO": "{} Wehlisiwe Kusuka Kumphathi"
+        },
+        "KICK": {
+            "DESC": "susa umsebenzisi eqenjini",
+            "HELP": "ukukhipha amalungu\n*Isibonelo:* khahlela konke\nhahlela _phendula umsebenzisi_",
+            "INFO": "{} ukhahlele Eqenjini"
+        },
+        "ADD": {
+            "DESC": "engeza umuntu eqenjini",
+            "INVITE": "Ayikwazanga Ukungeza Ukumema Thumela",
+            "NOT_FOUND": "Le nombolo ayikho ku-whatsapp",
+            "LEFTED": "Ayikwazanga ukwengeza u-{} ngoba bashiye iqembu kamuva nje. Zama futhi emuva kwesikhathi.",
+            "BLOCKED": "Ayikwazanga ukwengeza u-{} ngoba bavimbe inombolo ye-Bot, Zama futhi emuva kwesikhathi.",
+            "ADDED": "{} Kwengezwe Eqenjini",
+            "ALLREADY": "{} Usuvele ukuQembu."
+        },
+        "GPP": {
+            "DESC": "setha isithonjana seqembu",
+            "INFO": "*_isithonjana seqembu sibuyekeziwe!_*"
+        },
+        "FULL_GPP": {
+            "DESC": "setha isithonjana seqembu esinosayizi ogcwele",
+            "INFO": "*_isithonjana seqembu sibuyekeziwe!_*"
+        },
+        "G_NAME": {
+            "DESC": "setha igama leqembu",
+            "LENGTH_OVER": "*_Umbhalo mude kakhulu_*",
+            "SUCCESS": "_igama leqembu lishintshwe ngempumelelo!_"
+        },
+        "G_DESC": {
+            "DESC": "setha incazelo yeqembu",
+            "LENGTH_OVER": "*_Umbhalo mude kakhulu_",
+            "SUCCESS": "_incazelo yeqembu ishintshwe ngempumelelo!_"
+        },
+        "MUTE": {
+            "DESC": "thulisa iqembu",
+            "SUCCESS": "_Iqembu Livaliwe_"
+        },
+        "UNMUTE": {
+            "DESC": "susa ukuthulisa iqembu",
+            "SUCCESS": "_Iqembu Livuliwe!_"
+        },
+        "LOCK": {
+            "DESC": "ivumela abalawuli kuphela ukuhlela imininingwane yeqembu",
+            "SUCCESS": "_Iqembu Likhiyiwe!_"
+        },
+        "UNLOCK": {
+            "DESC": "ivumela wonke amalungu ukuthi ahlele imininingwane yeqembu",
+            "SUCCESS": "_Iqembu Livuliwe!_"
+        },
+        "LEFT": {
+            "DESC": "ushiywe eqenjini"
+        },
+        "INVITE": {
+            "DESC": "dala isixhumanisi seqembu",
+            "INFO": "Isixhumanisi Seqembu {}"
+        },
+        "REVOKE": {
+            "DESC": "hoxisa isixhumanisi seqembu",
+            "INFO": "*_Isixhumanisi sihoxisiwe._"
+        },
+        "ACPT": {
+            "DESC": "Joyina Iqembu usebenzisa isixhumanisi Seqembu",
+            "NOT_VALID": "_Faka isixhumanisi esivumelekile_"
+        },
+        "GET_INFO": {
+            "DESC": "thola ulwazi lweqembu nge-url",
+            "GIVE_URL": "_Nginike i-Goup Url_",
+            "INFO": "*id* : {}\n*isihloko*: {}\n*name* : {}\n*size* : {}\n*restricte* : {}\n*memezela* : { }\n*indalo* : {}\n*incazelo* : {}"
+        },
+        "AMUTE":{
+        "DESC":"iqembu lokuthulisa ngokuzenzakalelayo",
+            "NEED_TIME": "_dinga isikhathi (isibonelo :- 23:59)_",
+            "INVALID_FORMAT": "_Ifomethi engavlid_\n_Isibonelo_ : {}",
+            "SUCCESS": "_Iqembu Vala @_ {}",
+            "NOT_FOUND":" *_Ayitholakali_*\n*Isibonelo:* _*{}*_\n*{}*",
+            "LIST_ALL": "*umphumela wawo wonke amaqembu*\n\n",
+            "NO_DATA": "_Ayikho idatha etholiwe_",
+            "DESC_DEL": "Susa isikhathi sokuhlekisa Ku-DB",
+            "DESC_GET": "Thola Uhlu Lwesikhathi sokuthulisa ngokuzenzakalelayo"
+       },
+       "AUTOUNMUTE": {
+        "DESC":"susa ukuthula kweqembu ngokuzenzakalelayo",
+            "NEED_TIME": "_dinga isikhathi (isibonelo :- 23:59)_",
+            "INVALID_FORMAT": "_Ifomethi engavlid_\n_Isibonelo_ : {}",
+            "SUCCESS": "_Iqembu Livuliwe @_ {}",
+            "DESC_DEL": "Susa ukuthulisa isikhathi Ku-DB",
+            "DESC_GET": "Thola Uhlu Lwesikhathi sokuthulisa ngokuzenzakalelayo",
+            "NOT_FOUND":" *_Ayitholakali_*\n*Isibonelo:* _*{}*_\n*{}*",
+            "LIST_ALL": "*umphumela wawo wonke amaqembu*\n\n",
+            "NO_DATA": "_Ayikho idatha etholiwe_"
+            },
+            "PDM": {
+            "DESC":"thumela imilayezo yokwehliswa kwephromoshini",
+            "NEED_ACTION": "*_idinga isenzo!_*\n*_Isibonelo:_* {}",
+            "INVALID": "*nginike isenzo esifanele?*\n*_Isibonelo:_* {}",
+            "ALREADY_ACTIVATED": "*_seyiyasebenza!_*",
+            "SUCCESS_ON": "*_pdm yenziwe yasebenza!_*",
+            "ALREADY_DEACTIVATED": "*_seyivaliwe!_*",
+            "SUCCESS_OFF": "*_pdm yenziwe yangasebenzi!_*"
+            },
+            "ANTILINK":{
+            "DESC": "isenzo esiphikisana nesixhumanisi seqembu",
+            "NEED_ACTION": "*_idinga isenzo!_*\n*_Isibonelo:_* {}",
+            "INVALID": "*nginike isenzo esifanele?*\n*_Isibonelo:_ {}",
+            "ALREADY_ACTIVATED": "*_seyiyasebenza!_*",
+            "SUCCESS_ON": "_kusethe ngempumelelo i-antilink eqenjini_",
+            "ALREADY_DEACTIVATED": "*_seyivaliwe!_*",
+            "SUCCESS_OFF": "*_ikhiphe ngempumelelo i-antilink kuleli qembu_"
+            },
+            "ANTI_WORD":{
+            "DESC":"isenzo noma iqembu eliphikisana negama",
+            "DESC_DEL": "Susa i-antiword Ku-DB",
+            "DESC_GET": "Khipha Uhlu lwegama",
+            "NEED_WORD": "_udinga igama?!_\nIsibonelo: {}",
+            "ALLREADY": "_igama elinikeziwe selivele lisethiwe njenge-antiword_",
+            "NOT_FOUND":" *_Ayitholakali_*\n*Isibonelo:* _*{}*_\n*{}*",
+            "LIST_ALL": "*umphumela wawo wonke amaqembu*\n\n",
+            "NO_DATA": "_Ayikho idatha etholiwe_"
+            },
+            "ANTI_FAKE": {
+            "DESC_ON":"isenzo esingelona iqiniso seqembu",
+            "DESC_DEL": "Susa inombolo yomgunyathi Ku-DB",
+            "DESC_GET": "thola Uhlu Lwezinombolo Zomgunyathi",
+            "NEED_NUMBER": "_nginike isiqalo seNombolo mbumbulu_\nIsibonelo: {}",
+            "NO_NUMBER": "*Idinga Inombolo*",
+            "SUCCESS": "_*isethe ngempumelelo inombolo yomgunyathi!*_",
+            "ALLREDY": "_inombolo enikeziwe isivele isethiwe njenge-antifake_",
+            "NO_FAKE": "*_Kunenombolo-mbumbulu_*\n*Isibonelo* : {} _ukuthola inombolo yomgunyathi_\n*{}* _ukuthola uhlu lwezinombolo zomgunyathi_",
+            "NOT_EXIST": "*_awusethi le nombolo njengenkohliso_*\n*{}* _ukuthola inombolo yomgunyathi_\n*{}* _ukuthola uhlu lwezinombolo zomgunyathi_",
+            "NOT_FOUND":"*_Ayitholakali_*\n*{}*\n*{}*",
+            "LIST_ALL": "*umphumela wawo wonke amaqembu*\n\n",
+            "NO_DATA": "_Ayikho idatha etholiwe_"
+            }
+        },
+            "HEROKU":{
+                "DESC":"buyekeza i-bot yakho ibe yinguqulo ye-lest!",
+                "UPDATE_ARGS":"hlola isibuyekezo, buyekeza manje, buyekeza ukuhlola",
+                "ALLREDY": "*_sekunolwazi lwakamuva_*",
+                "LIST_UPDATE":"*izibuyekezo ezitholakalayo*\n\n",
+                "COMMITS":"*isikhathi* : {}\n*commit* : {}\n"
+            },
+            "IMG":{
+                "RMBG_DESC": "Susa i-bg yesithombe",
+                "IMG_DESC": "sesha isithombe sesicelo sakho"
+            },
+            "INSTA":{
+                "DESC":"landa imidiya ku-instgram",
+                "NEED_URL":"_Nginike i-instgram url!",
+                "NOT_VALID": "akuyona i-url evumelekile"
+            },
+            "PERMIT":{
+                "DESC": "nikeza abasebenzisi ukufinyelela ku-primum cmds",
+                "INVALID_FORMAT":"*ifomethi engalungile*\n```Isibonelo:-``` {}",
+                "SUDO":"*_Njengoba unokufinyelela kwe-sudo kwale bot! asikho isidingo sokuthatha imvume_*"
+            },
+            "LYRICS":{
+                "DESC":"Nika amazwi",
+                "RESPONCE": "*artist*: {}\n*title*: {}"
+            },
+            "GENERAL":{
+                "URL_DESC":"guqula imidiya ibe i-url",
+                "TINY_DESC": "isifinyezo sesixhumanisi",
+                "WEB_SS": "thola isithombe-skrini se-url",
+                "PDF": "khiqiza i-pdf nge-url",
+                "TAKE_DESC": "ukushintsha imethadatha ye- aduio njengesithombe/isihloko/incazelo",
+                "IMG_NEED": "ayikwazi ukuthola img!\ntry {}\n{}",
+                "EMIX_DESC": "ama-emoji amabili esitikha esisodwa",
+                "NEED_EMOJI": "*idinga ama-emoji* amabili,\n_Isibonelo_ {} 🥺+😹"
+            },
+            "MISC":{
+                "CALC_DESC": "yenza i-arithemetc opertion usebenzisa i-bot",
+                "BS64_DESC": "guqula i-ascii ibe yi-base64",
+                "BS_NEED": "*_Faka umbhalo ukuze uguqule i-base64_*",
+                "BS_DEC_DESC": "guqula i-base64 ibe i-ascii",
+                "BS_DEC_NEED": "_Faka umbhalo ukuze uguqule i-base64_",
+                "QR_DESC": "generate/reed qr",
+                "AGE_DESC": "Thola ubudala bomsebenzisi nge-DOB emithathu",
+                "AGE_FORMAT": "*_faka usuku lwakho lokuzalwa_*\n_{}_:unyaka/inyanga/usuku_*"
+            },
+            "OCR":{
+                "DESC": "Ukubonwa kwezinhlamvu ezikhanyayo",
+                "NEED": "nedd image for Optical Character Recognition"
+            },
+            "PING_DESC": "Ukuhlola i-ping",
+            "YT":{
+                "PLAY_DESC":"landa imidiya ku-youtube",
+                "NEED_TEXT": "*_nginike i-url noma sesha okuqukethwe_*",
+                "SONG_DESC": "landa ingoma ku-youtube",
+                "VIDEO_DESC": "landa ividiyo ku-youtube",
+                "INFO_SONG": "KANDA INGOMA YE-YOUTUBE",
+                "INFO_VIDEO": "UMLANDO WEVIDIYO WE-YOUTUBE"
+            },
+            "SCRAP": {
+                "GOOGLE_DESC":"sesha futhi uthole idatha ku-google",
+                "RING_DESC": "thola ukuncenceza",
+                "RING_LIST": "AVAILABLE RINGTONS",
+                "WEATHER_DESC": "nikeza isimo sezulu sendawo ethile",
+                "NEED_PLACE":"nginike indawo ukuze ngihlole isimo sezulu"
+            },
+            "SETTINGS":{
+                "DESC": "ukushintsha ama-bot vars",
+                "LIST": "Isibuyekezi Sezilungiselelo",
+                "SPAM_DELAY": "SPAM MANAGER (GROUP/PM) 3S UKULIBEKA",
+                "ONLINE": "BONISA I-BOT ONLINE ZONKE IZIKHATHI",
+                "REACT_ALL": "NIKEZA IZINYATHELO KUWO WONKE UMLAYEZO",
+                "REACT_CMD": "NIKEZA IZINTO KUPHELA NGOMLAYEZO WE-CMD",
+                "REACT": "YAMELA NGEMIZWA",
+                "READ_MESSAGE": "FUNDA YONKE IMILAYEZO",
+                "READ_CMD": "FUNDA IMIYALELO",
+                "BGM_BOT": "BGM BOT (Malayalam)",
+                "MODE": "MODE (yomphakathi/eyimfihlo)",
+                "BLOCK_PM": "PM VIMBELA",
+                "CALL_BLOCK": "CALL VIMBELA (PM)",
+                "STATUS": "BUKA SONKE ISIMO",
+                "SAVE_STATUS": "THUMELA SONKE ISIMO KU-PM YAKHO",
+                "PM_CHAT_BOT": "CHAT BOT PM",
+                "GROUP_CHAT_BOT": "CHAT BOT GROUP",
+                "PRESENCE": "BOT PRESENCE",
+                "SUDO_ADMIN": "NIKA I-ADMIN SUDO ACCSES",
+                "REJECT_CALL": "NQABA AMAKHOLI",
+                "SPAM_WARN": "ISIXWAYISO SOKUGAXEKILE (IQEMBU)",
+                "BAD_WORD_WARN": "ISIXWAYISO ESIBI (IQEMBU)",
+                "BAD_WORD_BLOCK": "BAD WORD BLOCK (PM)",
+                "SPAM_BLOCK": "VIMBELA UGAXEKILE (PM)",
+                "TO_UPDATE": "_Thumela inombolo njengempendulo ku-update_"
+            },
+            "STICKER": {
+                "DESC": "ukuguqula ividiyo emfushane noma isithombe sibe isitikha se-from",
+                "ERROR":"*_Phendula imidiya esekelwe_*"
+            },
+            "TAG_DESC": "maka ilungu leqembu",
+            "TOGGLE":{
+                "DESC": "Vumela noma Khubaza i-Cmd",
+                "LIST": "*_uhlu lwemiyalo yokuguqula!_*\n\n",
+                "METHODE": "*Isibonelo :* .} vala",
+                "ERROR": "_given cmd ayikho_",
+                "ERROR_KILL": "Ingabe ubufuna ukungibulala ngempela?"
+            },
+            "TRT":{
+                "DESC":"Google transalte",
+                "NEED": "*Phendula kumlayezo wombhalo*\n_Isibonelo : trt ml_\ntrt en & ```phendula umbhalo```",
+                "NEED_LANG": "*_nginike ulimi ofuna ukuluguqula_*"
+            },
+            "TTS_DESC":"umbhalo uye enkulumweni",
+            "VARS":{
+                "GET_DESC":"Thola amavars e-bot",
+                "ERROR": "*_akukho kuguquguquka okunjalo_*\n_!uma udinga konke okuguquguqukayo;_\nIsibonelo : _{}_*",
+                "PREFIX":{
+                    "DESC":"shintsha isiqalo se-bot",
+                    "METHODE":"_Isibonelo:- {} thola_\n_{} ★_"
+                },
+                "A_DATA":{
+                    "DESC":"shintsha idatha yomsindo",
+                    "METHODE": "_Isibonelo:- {} thola_\n_{} inrl;md;https://example.jpeg_"
+                },
+                "BIO":{
+                    "DESC":"shintsha umlando womzuzu nomzuzu",
+                    "METHODE": "_Isibonelo:- {} thola_\n_{} hay yabo😶_"
+                },
+                "LANG":{
+                    "DESC":"shintsha ulimi lwe-bot",
+                    "METHODE": "_Isibonelo:- {} thola_\n_{} ml_"
+                },
+                "ANTIBOT":{
+                    "DESC":"vimba ukusetshenziswa kwe-bot kusuka ku-jid ethize",
+                    "METHODE": "_Isibonelo:- {} thola_\n_{} 7364832658762@g.us_",
+                    "NOT_EXIST":"*_le jid ayikho ohlwini lwezingxoxo ezivinjiwe_*"
+                },
+                "S_DATA":{
+                    "DESC":"shintsha imininingwane yesitikha",
+                    "METHODE": "_Isibonelo:- {} thola_\n_{} inrl;md_"
+                },
+                "B_INFO":{
+                    "DESC":"shintsha imininingwane ye-bot",
+                    "METHODE": "_Isibonelo:- {} thola_\n_{} inrl;md;https://emage.jpeg;chat.whatsapp.com/74328kdm_"
+                },
+                "SUDO":{
+                    "DESC":"nikeza isenzo se-sudo kumsebenzisi othile",
+                    "METHODE": "_Isibonelo:- {} thola_\n_{} 7364832658762@g.us <reply>\n{} khipha 7648723465@s.whatsapp.net_",
+                    "NOT_EXIST":"*_le jid ayikho ohlwini lwe-sudo_*"
+                }
+            },
+            "WARN":{
+                "DESC":"xwayisa umsebenzisi eqenjini",
+                "METHODE": "*_Isibonelo:-_*\n*{}* ```phendula umsebenzisi```\n*{}* ```setha kabusha```\n*{}* ```thola ```",
+                "LIST":"*Uhlu Lwabasebenzisi*\n\n",
+                "INFO":"*umsebenzisi:* {}\n*isizathu:* {}\n*iqembu:* {}@g.us\n\n",
+                "MAX":"_Izixwayiso ezinkulu zifinyelelwe, zikhishiwe!_"
+            }
+    }

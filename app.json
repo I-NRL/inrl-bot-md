@@ -1,0 +1,73 @@
+{
+  "name": "inrl",
+  "description": "inrl-wa-bot-md",
+  "keywords": [],
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "to run the bot",
+      "required": true,
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "For updating bot and setting vars remotely",
+      "required": true,
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Exact name which you gave at the top",
+      "required": true,
+      "value": ""
+    },
+    "WORKTYPE": {
+      "description": "enter bot mode must be public/private",
+      "required": true,
+      "value": "private"
+    },
+    "BOT_INFO": {
+      "description": "baasic bot configration",
+      "required": true,
+      "value": "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg"
+    },
+    "PREFIX": {
+      "description": "bot preifx  ., [.,!], false",
+      "required": true,
+      "value": "."
+    },
+    "AUDIO_DATA": {
+      "description": "audio metadata",
+      "required": true,
+      "value": "ᴍᴜꜱɪᴄ;ᴋɪᴅ;https://i.imgur.com/DyLAuEh.jpg"
+    },
+    "STICKER_DATA": {
+      "description": "sticker data",
+      "required": true,
+      "value": "inrl;inrl"
+    },
+    "AUTO_STATUS_VIEW": {
+      "description": "automatic read status",
+      "required": false,
+      "value": "false"
+    },
+    "REJECT_CALL": {
+      "description": "automatic reject call",
+      "required": false,
+      "value": "false"
+    },
+    "WARN": {
+      "description": "warn count",
+      "required": false,
+      "value": "4"
+    },
+    "SUDO": {
+      "description": "secounds owners of bot",
+      "required": true,
+      "value": "null"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}
