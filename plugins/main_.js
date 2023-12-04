@@ -54,10 +54,7 @@ inrl({
     desc: lang.GENERAL.EMIX_DESC,
     react: "🤌",
     type: "create"
-}, async (message, match, data) => {
-    let {
-        config.STICKER_DATA
-    } = data;
+}, async (message, match) => {
     if (!match) return message.send(lang.GENERAL.NEED_EMOJI.format("emix"));
     if (!match.includes(/[|,;]/)) return message.send(lang.GENERAL.NEED_EMOJI.format("emix"));
     let emoji1, emoji2;
