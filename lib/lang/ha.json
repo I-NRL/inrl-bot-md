@@ -1,0 +1,410 @@
+{
+    "BASE":{
+       "TEXT": "_Bukatar Rubutu don aiwatarwa_",
+       "NEED": "_Da fatan a ba da amsa ga wani {}_",
+       "FAILD": "_requst ya kasa tare da lambar matsayi 401_",
+       "NOT_AUTHR": "_requst ya kasa tare da lambar matsayi 501_",
+       "SUCCESS": "_*nasara*_",
+       "ERROR": "*Kuskure:* {}",
+       "NEED_URL": "_Bani url_",
+       "WAIT": "_Don Allah a jira, aiwatar da buƙatarku_",
+       "INVALID_URL":"_Url da aka bayar ba ingantaccen Url_ bane",
+       "DOWNLOAD": "*_saukarwa_*:-\n_{}_"
+    },
+    "LIST": {
+        "DESC": "yana nuna jerin cmds tare da kwatance"
+    },
+    "ALIVE": {
+        "DESC": "don duba bot yana raye ko a'a",
+        "HELP": "*alive don samun saƙon rai*\n\n*_don saita saƙon rai_*\n*don saƙon rubutu na yau da kullun*\n```.alive $text>hey_bro_&sender;\ntime:&time;`` `\n\n*don hoto*\n```.alive $iamge>img_url;$text>hey _sis_\nkwanan kwanan wata&datepeed: &speed;``\n\n*don bidiyo*\n```.mai rai $ bidiyo> url;``` n$mediatype>1;\n$souceurl>url;\n$mediaurl>url;``"
+    },
+    "MENU": {
+        "DESC": "don samun bot cmds"
+    },
+    "CMDS": {
+        "DESC": "don nuna jerin cmds"
+    },
+    "TTP": {
+        "DESC": "ƙirƙiri rubutu akan hoto"
+    },
+    "ATTP": {
+        "DESC": "ƙirƙirar sitika mai rai"
+    },
+    "MEDIA_CMD": {
+        "SET_DESC": "saitin sitika kamar cmd",
+        "DEL_DESC": "cire sitika cmd",
+        "GET_DESC": "samu sitika cmds",
+        "NO_CMD": "*_witch cmd?_*",
+        "NOT_A_STICKER": "*amsar da saƙon sitika tare da cmd*\n\n*Misali:* {}",
+        "CMD_ERROR": "*_Ba a Yi nasarar Ajiye Saƙon Sitika naku ba!*_",
+        "CMD_LIST": "*Jimlar Dokokin Mai jarida*\n\n",
+        "NOT_FOUND": "_Babu umarnin sitika_"
+    },
+    "CONVERTER": {
+        "PHOTO_DESC": "canza stciker zuwa hoto",
+        "VIDEO_DESC": "canza sitika mai rai zuwa bidiyo",
+        "AUDIO_DESC": "canza sauti zuwa ptt",
+        "GIF_DESC": "canza sitika mai rai zuwa gif",
+        "AUDIO_EDIT_DESC": "gyara sauti",
+        "MP3_DESC": "canza bidiyo zuwa sauti"
+    },
+    "WHATSAPP": {
+        "DLT_DESC": "yana share saƙon rukuni ta bot",
+        "DEL_DESC": "share saƙon da aka aika ta bot",
+        "ISWA": {
+            "ISWA_DISC": "Lambar jeri a whatsapp",
+            "NO_NUMBER": "_Bani lamba_\n*Misali*: {}",
+            "NOT_VALID": "_Bani lamba mai inganci_\n*Misali* :{}",
+            "X_LENGTH": "*Kuskure Iyakance*\n*_zaka iya amfani da Max Length max har zuwa 3_*",
+            "WAIT": "_Da fatan za a jira dakika 25_",
+            "EXIST": "*Lambar da take a Whatsapp* ({}/{})\n\n",
+            "PRIVACY": "*Saitunan Sirri akan* ({}/{})\n\n",
+            "NOT_FOUND": "Ba'a Samu ({}/{})\n\n"
+        },
+        "NOWA": {
+            "DESC": "Lambar Lissafta Babu WhatsApp",
+            "NO_NUMBER": "_Bani lamba_\n*Misali*: {}",
+            "NOT_VALID": "_Bani lamba mai inganci_\n*Misali* :{}",
+            "X_LENGTH": "*Kuskure Iyakance*\n*_zaka iya amfani da Max Length max har zuwa 3_*",
+            "WAIT": "_Da fatan za a jira dakika 5_",
+            "LIST": "*Lambar Babu Akan whatsApp*\n\n*_ jimlar sakamako_*:-{}\n"
+        }
+    },
+    "RESTART": {
+        "DESC": "sake kunna bot",
+        "INFO": "Sake farawa Da fatan za a jira 'yan daƙiƙa kaɗan"
+    },
+    "EXTERNAL_PLUGIN": {
+        "DESC": "shigar/jera abubuwan plugins na waje",
+        "INALID": "Url plugin mara amfani",
+        "INSTALLED": "_Sabuwar plugin ɗin sune_ :{}",
+        "NO_PLUGIN": "_Babu plugin ɗin waje_",
+        "LIST": "Jerin Filogin Wuta na Waje\n\n",
+        "REMOVE_DESC": "cire plugins na waje",
+        "REMOVED": "_plugin an cire cikin nasara!, rubuta sake farawa don cire plugin_"
+    },
+    "FANCY": {
+        "DESC": "Yana ƙirƙira kyawawan haruffan rubutu",
+        "INFO": " Amsa ga rubutu ko buga rubutu bayan umarni tare da lambar lamba\n*Misali* : {}"
+    },
+    "FILTERS": {
+        "DESC": "sata/samu/cire tacewa akan rukuni",
+        "NOT_FOUND": "_*babu tacewa*_\n *Misali* : {}",
+        "INVALID": "*na iya yin kuskure daga nan!*\n*Misali* :- *{}/sticker, video, image, audio"
+    },
+    "GPT":{
+        "DESC": "tattaunawa da gpt",
+        "NEED_TEXT": "*_Bukatar Rubutu don Samun sakamakon AI_*"
+    },
+    "USER": {
+        "JID": "samu JID na memba ko mai amfani da aka sake kunnawa",
+        "BLOCK_DESC": "toshe mutum",
+        "UNBLOCK_DESC": "cire katanga mutum",
+        "PP": {
+            "DESC": "saita hoton bayanan bot",
+            "SUCCESS": "An sabunta hoton bayanan!"
+        },
+        "FULL_PP": {
+            "DESC": "saitin bayanin martaba na bot tare da kowane ƙuduri",
+            "SUCCESS": "An sabunta hoton bayanan!"
+        }
+    },
+    "GROUP": {
+        "BOT_ADMIN": "*_Bot dole ne ya zama Admin_*",
+        "PROMOTE": {
+            "DESC": "inganta mai amfani",
+            "INFO": "{} An inganta shi azaman admin"
+        },
+        "DEMOTE": {
+            "DESC": "Demote mai amfani",
+            "INFO": "{} An sauke daga admin"
+        },
+        "KICK": {
+            "DESC": "cire mai amfani daga rukuni",
+            "HELP": "don cire membobi\n*Misali:* shura duk\nkick_reply ga mai amfani_",
+            "INFO": "{} an harba Daga Rukunin"
+        },
+        "ADD": {
+            "DESC": "kara mutum zuwa rukuni",
+            "INVITE": "An kasa Ƙara Aika Gayyata",
+            "NOT_FOUND": "Babu wannan lambar a whatsapp",
+            "LEFTED": "Ba a iya ƙara {} saboda sun bar ƙungiyar kwanan nan. A sake gwadawa daga baya.",
+            "BLOCKED": "Ba a iya ƙara {} saboda sun toshe lambar Bot, a sake gwadawa daga baya.",
+            "ADDED": "{} Ƙara zuwa ƙungiyar",
+            "ALLREADY": "{} Tuni cikin rukuni."
+        },
+        "GPP": {
+            "DESC": "saitin gunkin rukuni",
+            "INFO": "*_An sabunta alamar rukuni!_*"
+        },
+        "FULL_GPP": {
+            "DESC": "saitin gunkin rukuni tare da cikakken girma",
+            "INFO": "*_An sabunta alamar rukuni!_*"
+        },
+        "G_NAME": {
+            "DESC": "saitin sunan rukuni",
+            "LENGTH_OVER": "*_Rubutu yayi tsayi da yawa_*",
+            "SUCCESS": "_An canza sunan rukuni cikin nasara!_"
+        },
+        "G_DESC": {
+            "DESC": "saitin bayanin rukunin",
+            "LENGTH_OVER": "*_Rubutu ya yi tsayi sosai_",
+            "SUCCESS": "_An canza bayanin rukunin cikin nasara!_"
+        },
+        "MUTE": {
+            "DESC": "rukunin bebe",
+            "SUCCESS": "_Rukunin Rufe_"
+        },
+        "UNMUTE": {
+            "DESC": "cute rukuni",
+            "SUCCESS": "_An Bude Rukuni!_"
+        },
+        "LOCK": {
+            "DESC": "yana bawa admins kawai damar gyara bayanan rukuni",
+            "SUCCESS": "_Rukunin Kulle!_"
+        },
+        "UNLOCK": {
+            "DESC": "yana bawa duk membobi damar gyara bayanin rukuni",
+            "SUCCESS": "_Ba a kulle rukuni ba!_"
+        },
+        "LEFT": {
+            "DESC": "hagu daga rukuni"
+        },
+        "INVITE": {
+            "DESC": "haɓaka hanyar haɗin gwiwa",
+            "INFO": "Haɗin Rukuni {}"
+        },
+        "REVOKE": {
+            "DESC": " soke hanyar haɗin gwiwa",
+            "INFO": "*_An soke hanyar haɗin gwiwa._"
+        },
+        "ACPT": {
+            "DESC": "Haɗa ƙungiya ta amfani da hanyar haɗin gwiwa",
+            "NOT_VALID": "_Shigar da ingantaccen hanyar haɗi_"
+        },
+        "GET_INFO": {
+            "DESC": "sami bayanan rukuni ta url",
+            "GIVE_URL": "_Bani Url Goup_",
+            "INFO": "* id* : {}\n* batun*: {}\n*suna* : {}\n*size* : {}\n* ƙuntata* : {}\n*sanar* : {} }\n*halitta* : {}\n*bayani* : {}"
+        },
+        "AMUTE":{
+        "DESC":"rukunin shiru ta atomatik",
+            "NEED_TIME": "_ bukatar lokaci (misali: - 23:59)_",
+            "INVALID_FORMAT": "_Hannun Tsari_\n_Misali_: {}",
+            "SUCCESS": "_Rukunin Rufe @_ {}",
+            "NOT_FOUND":" *_Ba'a Samu ba_*\n*Misali:* _*{}*_\n*{}*",
+            "LIST_ALL": "*sakamakon duk rukuni*\n\n",
+            "NO_DATA": "_Babu bayanai da aka samo_",
+            "DESC_DEL": "Cire lokaci daga DB",
+            "DESC_GET": "A kashe lissafin lokaci ta atomatik"
+       },
+       "AUTOUNMUTE": {
+        "DESC":" cire murya ta atomatik",
+            "NEED_TIME": "_ bukatar lokaci (misali: - 23:59)_",
+            "INVALID_FORMAT": "_Hannun Tsari_\n_Misali_: {}",
+            "SUCCESS": "_Rukunin Bude @_ {}",
+            "DESC_DEL": "Cire aunmute lokaci Daga DB",
+            "DESC_GET": "A kashe lissafin lokaci ta atomatik",
+            "NOT_FOUND":" *_Ba'a Samu ba_*\n*Misali:* _*{}*_\n*{}*",
+            "LIST_ALL": "*sakamakon duk rukuni*\n\n",
+            "NO_DATA": "_Babu bayanai da aka samo_"
+            },
+            "PDM": {
+            "DESC":"aika saƙon ingantacce",
+            "NEED_ACTION": "*_bukatar aiki!_*\n*_Misali:_* {}",
+            "INVALID": "*bani aikin da ya dace?*\n*_Misali:_* {}",
+            "ALREADY_ACTIVATED": "*_an riga an kunna!_*",
+            "SUCCESS_ON": "*_pdm an kunna!_*",
+            "ALREADY_DEACTIVATED": "*_an riga an kashe shi!_*",
+            "SUCCESS_OFF": "*_pdm an kashe!_*"
+            },
+            "ANTILINK":{
+            "DESC": "Aikin antilink don rukuni",
+            "NEED_ACTION": "*_bukatar aiki!_*\n*_Misali:_* {}",
+            "INVALID": "*bani aikin da ya dace?*\n*_Misali:_ {}",
+            "ALREADY_ACTIVATED": "*_an riga an kunna!_*",
+            "SUCCESS_ON": "_An yi nasarar saita antilink akan wannan rukunin_",
+            "ALREADY_DEACTIVATED": "*_an riga an kashe shi!_*",
+            "SUCCESS_OFF": "*_An yi nasarar cire antilink daga wannan rukunin_"
+            },
+            "ANTI_WORD":{
+            "DESC":"aiki ko rukuni",
+            "DESC_DEL": "Cire kalmar sirri Daga DB",
+            "DESC_GET": "Samu Kashe Kalma",
+            "NEED_WORD": "_na bukatar kalma?!_\nMisali: {}",
+            "ALLREADY": "_ kalmar da aka bayar an riga an saita ta azaman antiword_",
+            "NOT_FOUND":" *_Ba'a Samu ba_*\n*Misali:* _*{}*_\n*{}*",
+            "LIST_ALL": "*sakamakon duk rukuni*\n\n",
+            "NO_DATA": "_Babu bayanai da aka samo_"
+            },
+            "ANTI_FAKE": {
+            "DESC_ON":"Aikin antifake don rukuni",
+            "DESC_DEL": "Cire lambar karya daga DB",
+            "DESC_GET": "samu Jerin Lambobin Karya",
+            "NEED_NUMBER": "_bani farkon lambar karya_\nMisali: {}",
+            "NO_NUMBER": "*Lambar Bukatar*",
+            "SUCCESS": "_* anyi nasarar saita lambar karya!*_",
+            "ALLREDY": "_lambar da aka bayar tuni an saita azaman antifake_",
+            "NO_FAKE": "*_Akwai lambar karya_*\n*Misali* : {} _don samun lambar bogi_\n*{}* _don samun jerin lambobin karya_",
+            "NOT_EXIST": "*_baka sanya wannan lambar a matsayin karya ba_*\n*{}* _don samun lambar karya_\n*{}* _don samun jerin lambobin karya_",
+            "NOT_FOUND":"*_Ba'a Samu ba_*\n*{}*\n*{}*",
+            "LIST_ALL": "*sakamakon duk rukuni*\n\n",
+            "NO_DATA": "_Babu bayanai da aka samo_"
+            }
+        },
+            "HEROKU":{
+                "DESC":" sabunta bot ɗin ku zuwa sigar ba da izini!",
+                "UPDATE_ARGS":"duba sabuntawa, sabuntawa yanzu, duba sabuntawa",
+                "ALLREDY": "*_Tuni na zamani_*",
+                "LIST_UPDATE":"*akwai sabuntawa*\n\n",
+                "COMMITS":"*lokaci* : {}\n* ƙaddamar* : {}\n"
+            },
+            "IMG":{
+                "RMBG_DESC": "Cire hoton bg",
+                "IMG_DESC": "neman hoton buƙatun ku"
+            },
+            "INSTA":{
+                "DESC":" zazzage mai jarida daga instgram",
+                "NEED_URL":"_Bani url instgram!",
+                "NOT_VALID": "ba ingantaccen url ba"
+            },
+            "PERMIT":{
+                "DESC": "ba wa masu amfani damar shiga cmds na farko",
+                "INVALID_FORMAT":"*tsarin da ba daidai ba*\n``Misali:-``` {}",
+                "SUDO":"*_Kamar yadda kuke da sudo accsess na wannan bot! babu buƙatar ɗaukar izini_*"
+            },
+            "LYRICS":{
+                "DESC":"Ba da waƙoƙi",
+                "RESPONCE": "*mawaƙi*: {}\n* take*: {}"
+            },
+            "GENERAL":{
+                "URL_DESC":" musanya mai jarida zuwa url",
+                "TINY_DESC": "link shortner",
+                "WEB_SS": "samu hoton url",
+                "PDF": "samar da pdf daga url",
+                "TAKE_DESC": "don canza metadata aduio azaman hoto/ take/bayani",
+                "IMG_NEED": "ba a iya samun img!\n gwada {}\n{}",
+                "EMIX_DESC": "Emoji guda biyu zuwa siti guda",
+                "NEED_EMOJI": "*na bukatar emojis guda biyu*,\n_Misali_ {} 🥺+😹"
+            },
+            "MISC":{
+                "CALC_DESC": "yi aikin arithemetc ta amfani da bot",
+                "BS64_DESC": "canza ascii zuwa base64",
+                "BS_NEED": "*_Shigar da rubutu don canza tushe64_*",
+                "BS_DEC_DESC": "canza tushe64 zuwa ascii",
+                "BS_DEC_NEED": "_Shigar da rubutu don canza tushe64_",
+                "QR_DESC": "samar da / reed qr",
+                "AGE_DESC": "Samu shekarun mai amfani da DOB uku",
+                "AGE_FORMAT": "*_shigar da ranar haihuwarku_*\n{} _: shekara/wata/rana_*"
+            },
+            "OCR":{
+                "DESC": "Gane Haruffa Na gani",
+                "NEED": "hoton da aka sanya don Gane Haruffa Na gani"
+            },
+            "PING_DESC": "Don duba ping",
+            "YT":{
+                "PLAY_DESC":" zazzage mai jarida daga youtube",
+                "NEED_TEXT": "*_bani url ko bincika abun ciki_*",
+                "SONG_DESC": "zazzage waƙa daga youtube",
+                "VIDEO_DESC": "zazzage bidiyo daga youtube",
+                "INFO_SONG": "YOUTUBE SONGLOADER",
+                "INFO_VIDEO": "YOUTUBE DOWNLOADER"
+            },
+            "SCRAP": {
+                "GOOGLE_DESC":"bincika da samun bayanai daga google",
+                "RING_DESC": "samu sautunan ringi",
+                "RING_LIST": "RINGTONS DA AKE KWANA",
+                "WEATHER_DESC": "ba da yanayi na wuri",
+                "NEED_PLACE":"bani wurin duba yanayi uku"
+            },
+            "SETTINGS":{
+                "DESC": "don canza bot vars",
+                "LIST": "Mai sabunta Saituna",
+                "SPAM_DELAY": "MALAMAI SPAM (GROUP/PM) 3S DELAY",
+                "ONLINE": "NUNA BOT ONLINE HAR KOWANNE LOKACI",
+                "REACT_ALL": "BADA MARTANI GA KOWANNE SAKO",
+                "REACT_CMD": "KA BAYAR DA AMSA KAWAI DON SAKON CMD",
+                "REACT": "MAGANIN TUNANIN ZUCIYA",
+                "READ_MESSAGE": "KARANTA DUK SAKO",
+                "READ_CMD": "KARANTA UMARNI",
+                "BGM_BOT": "BGM BOT (Malayalam)",
+                "MODE": "MODE (na jama'a/na zaman kansa)",
+                "BLOCK_PM": "PM BLOCK",
+                "CALL_BLOCK": "KIRAN KIRA (PM)",
+                "STATUS": "DUBI DUK MATSAYI",
+                "SAVE_STATUS": "AIKA DUK MATSAYI ZUWA GA PM",
+                "PM_CHAT_BOT": "CHAT BOT PM",
+                "GROUP_CHAT_BOT": "CHAT BOT GROUP",
+                "PRESENCE": "BOT PRESENCE",
+                "SUDO_ADMIN": "KA BA DA ADMIN SUDO ACCES",
+                "REJECT_CALL": "KURA KIRA",
+                "SPAM_WARN": "WARN WARN (GROUP)",
+                "BAD_WORD_WARN": "MUmmunan KALMOMI (GROUP)",
+                "BAD_WORD_BLOCK": "BAD KALMOMI BLOCK (PM)",
+                "SPAM_BLOCK": "Block BLOCK (PM)",
+                "TO_UPDATE": "_Aika lamba a matsayin amsa don sabuntawa_"
+            },
+            "STICKER": {
+                "DESC": "don canza gajeren bidiyo ko hoto zuwa sitika daga waje",
+                "ERROR":"*_Amsa ga kafofin watsa labarai masu goyan baya_*"
+            },
+            "TAG_DESC": "tag memba",
+            "TOGGLE":{
+                "DESC": "Kuna ko A kashe Cmd",
+                "LIST": "*_jerin umarnin jujjuyawa!_*\n\n",
+                "METHODE": "*Misali:* .{} ping off",
+                "ERROR": "_bashi da cmd_",
+                "ERROR_KILL": "Da gaske kuke so ku kashe ni?"
+            },
+            "TRT":{
+                "DESC":"Google transalte",
+                "NEED": "* Amsa ga rubutu msg*\n_Misali : trt ml_\ntrt en & ``amsar da rubutu```",
+                "NEED_LANG": "*_bani harshen da kake son jujjuyawa_*"
+            },
+            "TTS_DESC":"rubutu zuwa magana",
+            "VARS":{
+                "GET_DESC":"Samu vars na bot",
+                "ERROR": "*_babu irin wannan m_*\n_! idan kuna buƙatar kowane mai canzawa;_\n Misali: _{}_*",
+                "PREFIX":{
+                    "DESC":"canja prefix na bot",
+                    "METHODE":"_Misali:- {} samu_\n_{} ★_"
+                },
+                "A_DATA":{
+                    "DESC":"canja bayanan sauti",
+                    "METHODE": "_Misali:- {} samu_\n_{} inrl;md;https://example.jpeg_"
+                },
+                "BIO":{
+                    "DESC":"canja bio na kowane minti daya",
+                    "METHODE": "_Misali:- {} samu_\n_{} su😶_"
+                },
+                "LANG":{
+                    "DESC":"canja yaren bot",
+                    "METHODE": "_Misali:- {} samu_\n_{} ml_"
+                },
+                "ANTIBOT":{
+                    "DESC":" toshe amfani da bot daga takamaiman ji",
+                    "METHODE": "_Misali:- {} samu_\n_{} 7364832658762@g.us_",
+                    "NOT_EXIST":"*_Wannan ba a cikin jerin katange taɗi_*"
+                },
+                "S_DATA":{
+                    "DESC":"canja bayanin siti",
+                    "METHODE": "_Misali:- {} samu_\n_{} inrl;md_"
+                },
+                "B_INFO":{
+                    "DESC":"canja bayanin bot",
+                    "METHODE": "_Misali:- {} samu_\n_{} inrl;md;https://emage.jpeg;chat.whatsapp.com/74328kdm_"
+                },
+                "SUDO":{
+                    "DESC":"ba da aikin sudo don takamaiman mai amfani",
+                    "METHODE": "_Misali:- {} samu_\n_{} 7364832658762@g.us <reply>\n{} cire 7648723465@s.whatsapp.net_",
+                    "NOT_EXIST":"*_wannan ba a cikin jerin sudo_*"
+                }
+            },
+            "WARN":{
+                "DESC":" gargadi mai amfani a rukuni",
+                "METHODE": "*_Misali:-_*\n*{}* ``amsa da mai amfani```\n*{}* ```sake saitin``\n*{}* ```samu ```",
+                "LIST":"*Jerin Masu Amfani*\n\n",
+                "INFO":"*mai amfani:* {}\n*dalili:* {}\n*group:* {}@g.us\n\n",
+                "MAX":"_Max yayi kashedin an kai, an kori!_"
+            }
+    }

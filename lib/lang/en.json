@@ -1,0 +1,410 @@
+{
+    "BASE":{
+       "TEXT": "_Need Text to process_",
+       "NEED": "_Please Reply To a {}_",
+       "FAILD": "_requst faild with status code 401_",
+       "NOT_AUTHR": "_requst faild with status code 501_",
+       "SUCCESS": "_*successfull*_",
+       "ERROR": "*Error:* {}",
+       "NEED_URL": "_Give me a url_",
+       "WAIT": "_please Wait, processing your requst_",
+       "INVALID_URL":"_Given url is not a valid Url_",
+       "DOWNLOAD": "*_downloading_*:-\n_{}_"
+    },
+    "LIST": {
+        "DESC": "shows list of cmds with description"
+    },
+    "ALIVE": {
+        "DESC": "to check bot is alive or not",
+        "HELP": "*alive get to get alive message*\n\n*_to set alive message_*\n*for normal text message*\n```.alive $text>hey_bro_&sender;\ntime:&time;```\n\n*for image*\n```.alive $iamge>img_url;$text>hey _sis_\ndate&datespeed : &speed;```\n\n*for video*\n```.alive $video>url;```\n\n*message with LinkPrvew*\n```.alive $sticker>url;\n$thumbnail>url;\n$title>text;\n$body>hy;\n$mediatype>1;\n$souceurl>url;\n$mediaurl>url;```"
+    },
+    "MENU": {
+        "DESC": "to get bot cmds"
+    },
+    "CMDS": {
+        "DESC": "to show list of cmds"
+    },
+    "TTP": {
+        "DESC": "create text over image"
+    },
+    "ATTP": {
+        "DESC": "create animated sticker's"
+    },
+    "MEDIA_CMD": {
+        "SET_DESC": "set sticker as cmd",
+        "DEL_DESC": "remove sticker cmd",
+        "GET_DESC": "get sticker cmds",
+        "NO_CMD": "*_witch cmd?_*",
+        "NOT_A_STICKER": "*reply to a sticker message with cmd*\n\n*Example:* {}",
+        "CMD_ERROR": "*_Failed To Save Your Sticker Message!*_",
+        "CMD_LIST": "*Total Media Commands*\n\n",
+        "NOT_FOUND": "_There is no sticker command_"
+    },
+    "CONVERTER": {
+        "PHOTO_DESC": "convert stciker to image",
+        "VIDEO_DESC": "convert animated sticker to video",
+        "AUDIO_DESC": "convert audio to ptt",
+        "GIF_DESC": "convert animated sticker to gif",
+        "AUDIO_EDIT_DESC": "audio edit",
+        "MP3_DESC": "convert video to audio"
+    },
+    "WHATSAPP": {
+        "DLT_DESC": "deletes group message's by bot",
+        "DEL_DESC": "delete messsge thets send by bot",
+        "ISWA": {
+            "ISWA_DISC": "List number in whatsapp",
+            "NO_NUMBER": "_Give me a number_\n*Example* : {}",
+            "NOT_VALID": "_Give me number with valid format_\n*Example* :{}",
+            "X_LENGTH": "*Limit Error*\n*_you can use X Length max upto 3_*",
+            "WAIT": "_Please Wait 25 Seconds_",
+            "EXIST": "*Number Existing on Whatsapp* ({}/{})\n\n",
+            "PRIVACY": "*Privacy Settings on* ({}/{})\n\n",
+            "NOT_FOUND": "Not Found ({}/{})\n\n"
+        },
+        "NOWA": {
+            "DESC": "List number Thet Not Exist whatsapp",
+            "NO_NUMBER": "_Give me a number_\n*Example* : {}",
+            "NOT_VALID": "_Give me number with valid format_\n*Example* :{}",
+            "X_LENGTH": "*Limit Error*\n*_you can use X Length max upto 3_*",
+            "WAIT": "_Please Wait 5 Seconds_",
+            "LIST": "*Number Not Exist On whatsApp*\n\n*_total result_*:-{}\n"
+        }
+    },
+    "RESTART": {
+        "DESC": "restart bot",
+        "INFO": "Restarting Please await few secondÂ°s"
+    },
+    "EXTERNAL_PLUGIN": {
+        "DESC": "install/list external plugins",
+        "INALID": "inavlid plugin url",
+        "INSTALLED": "_Newly installed plugin are_ :{}",
+        "NO_PLUGIN": "_There is no external plugin_",
+        "LIST": "List of External Plugin Plugin\n\n",
+        "REMOVE_DESC": "remove external plugins",
+        "REMOVED": "_plugin removed successfully!, type restart to remove plugin_"
+    },
+    "FANCY": {
+        "DESC": "Creates fancy text fonts",
+        "INFO": "Reply to a text or type text after command with a numeric code\n*Example* : {}"
+    },
+    "FILTERS": {
+        "DESC": "set/get/remove filteres on group ",
+        "NOT_FOUND": "_*there is no filter*_\n *Example* : {}",
+        "INVALID": "*may be wrong fromat!*\n*Example* :- *{}/sticker, video, image, audio"
+    },
+    "GPT":{
+        "DESC": "chat with gpt",
+        "NEED_TEXT": "*_Need Text t Get AI result_*"
+    },
+    "USER": {
+        "JID": "get JID of member or replayed user",
+        "BLOCK_DESC": "block a person",
+        "UNBLOCK_DESC": "unblock a person",
+        "PP": {
+            "DESC": "set  profile picture of bot",
+            "SUCCESS": "profile picture updated!"
+        },
+        "FULL_PP": {
+            "DESC": "set  profile picture of bot with any resolution",
+            "SUCCESS": "profile picture updated!"
+        }
+    },
+    "GROUP": {
+        "BOT_ADMIN": "*_Bot must Be Admin_*",
+        "PROMOTE": {
+            "DESC": "promote user",
+            "INFO": "{} Promoted As admin"
+        },
+        "DEMOTE": {
+            "DESC": "demote user",
+            "INFO": "{} Demoted From admin"
+        },
+        "KICK": {
+            "DESC": "remove user from group",
+            "HELP": "for removing members\n*Example:* kick all\nkick _reply to a user_",
+            "INFO": "{} kicked From The Group"
+        },
+        "ADD": {
+            "DESC": "add a person to the group",
+            "INVITE": "Couldn't Add Invite Send",
+            "NOT_FOUND": "This number doesn't exists on whatsapp",
+            "LEFTED": "Couldn't add {} because they left the group recently. Try again later.",
+            "BLOCKED": "Couldn't add {} because they blocked Bot number, Try again later.",
+            "ADDED": "{} Added To the group",
+            "ALLREADY": "{} Already in Group."
+        },
+        "GPP": {
+            "DESC": "set group icon",
+            "INFO": "*_group icon updated!_*"
+        },
+        "FULL_GPP": {
+            "DESC": "set group icon with full size",
+            "INFO": "*_group icon updated!_*"
+        },
+        "G_NAME": {
+            "DESC": "set group name",
+            "LENGTH_OVER": "*_Text is too long_*",
+            "SUCCESS": "_group name changed successfully!_"
+        },
+        "G_DESC": {
+            "DESC": "set group description",
+            "LENGTH_OVER": "*_Text is too long_",
+            "SUCCESS": "_group description changed successfully!_"
+        },
+        "MUTE": {
+            "DESC": "mute group",
+            "SUCCESS": "_Group Closed_"
+        },
+        "UNMUTE": {
+            "DESC": "unmute group",
+            "SUCCESS": "_Group Opened!_"
+        },
+        "LOCK": {
+            "DESC": "allows only admins to edit group info",
+            "SUCCESS": "_Group Locked!_"
+        },
+        "UNLOCK": {
+            "DESC": "allows all members to edit group info",
+            "SUCCESS": "_Group UnLocked!_"
+        },
+        "LEFT": {
+            "DESC": "left from group"
+        },
+        "INVITE": {
+            "DESC": "generate group link",
+            "INFO": "Group Link {}"
+        },
+        "REVOKE": {
+            "DESC": "revoke group link",
+            "INFO": "*_Group link revoked._"
+        },
+        "ACPT": {
+            "DESC": "Join a Group using a Group link",
+            "NOT_VALID": "_Enter valid link_"
+        },
+        "GET_INFO": {
+            "DESC": "get group info by url",
+            "GIVE_URL": "_Give me a Goup Url_",
+            "INFO": "*id* : {}\n*subject*: {}\n*name* : {}\n*size* : {}\n*restricte* : {}\n*announce* : {}\n*creation* : {}\n*description* : {}"
+        },
+        "AMUTE":{
+        	"DESC":"auto mute group",
+            "NEED_TIME": "_need time (example :- 23:59)_",
+            "INVALID_FORMAT": "_Inavlid Format_\n_Example_ :  {}",
+            "SUCCESS": "_Group Close @_ {}",
+            "NOT_FOUND":" *_Not Found_*\n*Example:* _*{}*_\n*{}*",
+            "LIST_ALL": "*result for all group*\n\n",
+            "NO_DATA": "_No data Found_",
+            "DESC_DEL": "Remove amute time  From DB",
+            "DESC_GET": "Get List Off auto mute time"
+       },
+       "AUTOUNMUTE": {
+       	"DESC":"auto unmute group",
+       "NEED_TIME": "_need time (example :- 23:59)_",
+            "INVALID_FORMAT": "_Inavlid Format_\n_Example_ :  {}",
+            "SUCCESS": "_Group Open @_ {}",
+            "DESC_DEL": "Remove aunmute time  From DB",
+            "DESC_GET": "Get List Off auto unmute time",
+            "NOT_FOUND":" *_Not Found_*\n*Example:* _*{}*_\n*{}*",
+            "LIST_ALL": "*result for all group*\n\n",
+            "NO_DATA": "_No data Found_"
+            },
+            "PDM": {
+            "DESC":"send promote demote messages",
+            "NEED_ACTION": "*_need action!_*\n*_Example:_* {}",
+            "INVALID": "*give me a proper action?*\n*_Example:_* {}",
+            "ALREADY_ACTIVATED": "*_already activated!_*",
+            "SUCCESS_ON": "*_pdm activated!_*",
+            "ALREADY_DEACTIVATED": "*_already deactivated!_*",
+            "SUCCESS_OFF": "*_pdm deactivated!_*"
+            },
+            "ANTILINK":{
+            "DESC": "antilink action for group",
+            "NEED_ACTION": "*_need action!_*\n*_Example:_* {}",
+            "INVALID": "*give me a proper action?*\n*_Example:_ {}",
+            "ALREADY_ACTIVATED": "*_already activated!_*",
+            "SUCCESS_ON": "_successfully set antilink on thi group_",
+            "ALREADY_DEACTIVATED": "*_already deactivated!_*",
+            "SUCCESS_OFF": "*_successfully removed antilink from this group_"
+            },
+            "ANTI_WORD":{
+            "DESC":"antiword action or group",
+            "DESC_DEL": "Remove antiword From DB",
+            "DESC_GET": "Get List Off word",
+            "NEED_WORD": "_need word?!_\nExample: {}",
+            "ALLREADY": "_given word already set as antiword_",
+            "NOT_FOUND":" *_Not Found_*\n*Example:* _*{}*_\n*{}*",
+            "LIST_ALL": "*result for all group*\n\n",
+            "NO_DATA": "_No data Found_"
+            },
+            "ANTI_FAKE": {
+            "DESC_ON":"antifake action for group",
+            "DESC_DEL": "Remove fake number number From DB",
+            "DESC_GET": "get List of Fake Number",
+            "NEED_NUMBER": "_give me the starting of fake Number_\nExample: {}",
+            "NO_NUMBER": "*Need Number*",
+            "SUCCESS": "_*successfully set fake number!*_",
+            "ALLREDY": "_given number already set as antifake_",
+            "NO_FAKE": "*_There is fake number_*\n*Example* : {} _to get fake number_\n*{}* _to get list of fake number_",
+            "NOT_EXIST": "*_you not set this number as fake_*\n*{}* _to get fake number_\n*{}* _to get list of fake number_",
+            "NOT_FOUND":"*_Not Found_*\n*{}*\n*{}*",
+            "LIST_ALL": "*result for all group*\n\n",
+            "NO_DATA": "_No data Found_"
+            }
+        },
+            "HEROKU":{
+                "DESC":"update your bot to letest version!",
+                "UPDATE_ARGS":"check update,update now,update check",
+                "ALLREDY": "*_already up-to-date_*",
+                "LIST_UPDATE":"*available updates*\n\n",
+                "COMMITS":"*time* : {}\n*commit* : {}\n"
+            },
+            "IMG":{
+                "RMBG_DESC": "Remove bg of image",
+                "IMG_DESC": "image search for your requst"
+            },
+            "INSTA":{
+                "DESC":"download media from instgram",
+                "NEED_URL":"_Give me an instgram url!",
+                "NOT_VALID": "not a valid url"
+            },
+            "PERMIT":{
+                "DESC": "give users to primum cmds access",
+                "INVALID_FORMAT":"*incorrect format*\n```Example:-``` {}",
+                "SUDO":"*_As you have sudo accsess of this bot! there is no need to take permission_*"
+            },
+            "LYRICS":{
+                "DESC":"GIve lyrics",
+                "RESPONCE": "*artist*: {}\n*title*: {}"
+            },
+            "GENERAL":{
+                "URL_DESC":"convert media to url",
+                "TINY_DESC": "link shortner",
+                "WEB_SS": "get screenshot of url",
+                "PDF": "generate pdf from url",
+                "TAKE_DESC": "to change aduio metadata as image/title/description",
+                "IMG_NEED": "unable to get img!\ntry {}\n{}",
+                "EMIX_DESC": "two emojis to single sticker",
+                "NEED_EMOJI": "*need two emojis*,\n_Example_ {} 🥺+😹"
+            },
+            "MISC":{
+                "CALC_DESC": "do arithemetc opertion using bot",
+                "BS64_DESC": "convert ascii to base64",
+                "BS_NEED": "*_Enter A text to convert base64_*",
+                "BS_DEC_DESC": "convert base64 to ascii",
+                "BS_DEC_NEED": "_Enter A text to convert base64_",
+                "QR_DESC": "generate/reed qr",
+                "AGE_DESC": "Get age of user by thire DOB",
+                "AGE_FORMAT": "*_enter your date of birth_*\n_{} :year/month/day_*"
+            },
+            "OCR":{
+                "DESC": "Optical Character Recognition",
+                "NEED": "need image for Optical Character Recognition"
+            },
+            "PING_DESC": "To check ping",
+            "YT":{
+                "PLAY_DESC":"download media from youtube",
+                "NEED_TEXT": "*_give me a url or search content_*",
+                "SONG_DESC": "download song from youtube",
+                "VIDEO_DESC": "download video from youtube",
+                "INFO_SONG": "YOUTUBE SONG DOWNLOADER",
+                "INFO_VIDEO": "YOUTUBE VIDEO DOWNLOADER"
+            },
+            "SCRAP": {
+                "GOOGLE_DESC":"search and get data from google",
+                "RING_DESC": "get ringtons",
+                "RING_LIST": "AVAILABLE RINGTONES",
+                "WEATHER_DESC": "give climate of given place",
+                "NEED_PLACE":"give me a place to check thire climate"
+            },
+            "SETTINGS":{
+                "DESC": "to change bot vars",
+                "LIST": "Settings Updater",
+                "SPAM_DELAY": "SPAM MANAGER (GROUP/PM) 3S DELAY",
+                "ONLINE": "SHOW BOT ONLINE FOR ALL TIMES",
+                "REACT_ALL": "GIVE REACTION TO EVERY MESSAGE",
+                "REACT_CMD": "GIVE REACTION ONLY FOR CMD MESSAGE",
+                "REACT": "REACT FOR EMOTIONS",
+                "READ_MESSAGE": "READ ALL MESSAGES",
+                "READ_CMD": "READ COMMANDS",
+                "BGM_BOT": "BGM BOT (Malayalam)",
+                "MODE": "MODE (public/private)",
+                "BLOCK_PM": "PM BLOCK",
+                "CALL_BLOCK": "CALL BLOCK (PM)",
+                "STATUS": "VIEW ALL STATUS",
+                "SAVE_STATUS": "SEND ALL STATUS TO YOUR PM",
+                "PM_CHAT_BOT": "CHAT BOT PM",
+                "GROUP_CHAT_BOT":  "CHAT BOT GROUP",
+                "PRESENCE": "BOT PRESENCE",
+                "SUDO_ADMIN": "GIVE ADMIN SUDO ACCSES",
+                "REJECT_CALL": "REJECT CALLS",
+                "SPAM_WARN": "SPAM WARN (GROUP)",
+                "BAD_WORD_WARN": "BAD WORD WARN (GROUP)",
+                "BAD_WORD_BLOCK": "BAD WORD BLOCK (PM)",
+                "SPAM_BLOCK": "SPAM BLOCK (PM)",
+                "TO_UPDATE": "_Send number as reply to update_"
+            },
+            "STICKER": {
+                "DESC": "to convert short video or image to sticker format",
+                "ERROR":"*_Reply to Supported media_*"
+            },
+            "TAG_DESC": "tag group member",
+            "TOGGLE":{
+                "DESC": "Enable or Disable Cmd",
+                "LIST": "*_list of toggle commands!_*\n\n",
+                "METHODE": "*Example :* .{} ping off",
+                "ERROR": "_given cmd not exist_",
+                "ERROR_KILL": "Did you really want to kill me?"
+            },
+            "TRT":{
+                "DESC":"Google transalte",
+                "NEED": "*Reply to a text msg*\n_Example : trt ml_\ntrt en & ```reply to a text```",
+                "NEED_LANG": "*_give me a language you want to convert_*"
+            },
+            "TTS_DESC":"text to speech",
+            "VARS":{
+                "GET_DESC":"Get vars of bot",
+                "ERROR": "*_no such variable_*\n_!if you need all variable;_\nExample : _{}_*",
+                "PREFIX":{
+                    "DESC":"change prefix of bot",
+                    "METHODE":"_Example:- {} get_\n_{} ★_"
+                },
+                "A_DATA":{
+                    "DESC":"change audio data",
+                    "METHODE": "_Example:- {} get_\n_{} inrl;md;https://example.jpeg_"
+                },
+                "BIO":{
+                    "DESC":"change bio for each minute",
+                    "METHODE": "_Example:- {} get_\n_{} hay their😶_"
+                },
+                "LANG":{
+                    "DESC":"change languge of bot",
+                    "METHODE": "_Example:- {} get_\n_{} ml_"
+                },
+                "ANTIBOT":{
+                    "DESC":"block bot use from specific jid",
+                    "METHODE": "_Example:- {} get_\n_{} 7364832658762@g.us_",
+                    "NOT_EXIST":"*_this jid not existing in blocked chat list_*"
+                },
+                "S_DATA":{
+                    "DESC":"change sticker info",
+                    "METHODE": "_Example:- {} get_\n_{} inrl;md_"
+                },
+                "B_INFO":{
+                    "DESC":"change info of bot",
+                    "METHODE": "_Example:- {} get_\n_{} inrl;md;https://emage.jpeg;chat.whatsapp.com/74328kdm_"
+                },
+                "SUDO":{
+                    "DESC":"give sudo action for specific user",
+                    "METHODE": "_Example:- {} get_\n_{} 7364832658762@g.us <reply>\n{} remove 7648723465@s.whatsapp.net_",
+                    "NOT_EXIST":"*_this jid not existing in sudo list_*"
+                }
+            },
+            "WARN":{
+                "DESC":"warn a user in group",
+                "METHODE": "*_Example:-_*\n*{}* ```reply to a user```\n*{}* ```reset```\n*{}* ```get```",
+                "LIST":"*List of Users*\n\n",
+                "INFO":"*user:* {}\n*reason:* {}\n*group:* {}@g.us\n\n",
+                "MAX":"_Max warns reached, kicked out!_"
+            }
+    }

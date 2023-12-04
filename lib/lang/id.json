@@ -1,0 +1,410 @@
+{
+    "BASE":{
+       "TEXT": "_Memerlukan Teks untuk diproses_",
+       "NEED": "_Harap Balas {}_",
+       "FAILD": "_requst gagal dengan kode status 401_",
+       "NOT_AUTHR": "_requst gagal dengan kode status 501_",
+       "SUCCESS": "_*sukses*_",
+       "ERROR": "*Kesalahan:* {}",
+       "NEED_URL": "_Beri saya url_",
+       "WAIT": "_harap Tunggu, sedang memproses permintaan Anda_",
+       "INVALID_URL":"_Url yang diberikan bukan Url yang valid_",
+       "DOWNLOAD": "*_mengunduh_*:-\n_{}_"
+    },
+    "LIST": {
+        "DESC": "menampilkan daftar cmd dengan deskripsi"
+    },
+    "ALIVE": {
+        "DESC": "untuk memeriksa bot hidup atau tidak",
+        "HELP": "*alive get untuk mendapatkan pesan hidup*\n\n*_untuk menyetel pesan hidup_*\n*untuk pesan teks normal*\n```.alive $text>hey_bro_&sender;\ntime:&time;`` `\n\n*untuk gambar*\n```.alive $iamge>img_url;$teks>hai _sis_\ndate&datespeed : &speed;```\n\n*untuk video*\n```.alive $ video>url;```\n\n*pesan dengan LinkPrvew*\n```.alive $sticker>url;\n$thumbnail>url;\n$title>teks;\n$body>hy;\n$mediatype>1;\n$souceurl>url;\n$mediaurl>url;```"
+    },
+    "MENU": {
+        "DESC": "untuk mendapatkan cmd bot"
+    },
+    "CMDS": {
+        "DESC": "untuk menampilkan daftar cmd"
+    },
+    "TTP": {
+        "DESC": "buat teks di atas gambar"
+    },
+    "ATTP": {
+        "DESC": "buat stiker animasi"
+    },
+    "MEDIA_CMD": {
+        "SET_DESC": "setel stiker sebagai cmd",
+        "DEL_DESC": "hapus cmd stiker",
+        "GET_DESC": "dapatkan cmd stiker",
+        "NO_CMD": "*_cmd penyihir?_*",
+        "NOT_A_STICKER": "*membalas pesan stiker dengan cmd*\n\n*Contoh:* {}",
+        "CMD_ERROR": "*_Gagal Menyimpan Pesan Stiker Anda!*_",
+        "CMD_LIST": "*Total Perintah Media*\n\n",
+        "NOT_FOUND": "_Tidak ada perintah stiker_"
+    },
+    "CONVERTER": {
+        "PHOTO_DESC": "konversi stciker menjadi gambar",
+        "VIDEO_DESC": "konversi stiker animasi menjadi video",
+        "AUDIO_DESC": "konversi audio ke ptt",
+        "GIF_DESC": "konversi stiker animasi menjadi gif",
+        "AUDIO_EDIT_DESC": "pengeditan audio",
+        "MP3_DESC": "konversi video ke audio"
+    },
+    "WHATSAPP": {
+        "DLT_DESC": "menghapus pesan grup dengan bot",
+        "DEL_DESC": "hapus pesan yang dikirim melalui bot",
+        "ISWA": {
+            "ISWA_DISC": "Cantumkan nomor di whatsapp",
+            "NO_NUMBER": "_Beri saya nomor_\n*Contoh* : {}",
+            "NOT_VALID": "_Beri saya nomor dengan format yang valid_\n*Contoh* :{}",
+            "X_LENGTH": "*Limit Error*\n*_Anda dapat menggunakan X Panjang maksimal hingga 3_*",
+            "WAIT": "_Harap Tunggu 25 Detik_",
+            "EXIST": "*Nomor yang Ada di Whatsapp* ({}/{})\n\n",
+            "PRIVACY": "*Pengaturan Privasi aktif* ({}/{})\n\n",
+            "NOT_FOUND": "Tidak Ditemukan ({}/{})\n\n"
+        },
+        "NOWA": {
+            "DESC": "Daftar nomor yang Tidak Ada whatsapp",
+            "NO_NUMBER": "_Beri saya nomor_\n*Contoh* : {}",
+            "NOT_VALID": "_Beri saya nomor dengan format yang valid_\n*Contoh* :{}",
+            "X_LENGTH": "*Limit Error*\n*_Anda dapat menggunakan X Panjang maksimal hingga 3_*",
+            "WAIT": "_Harap Tunggu 5 Detik_",
+            "LIST": "*Nomor Tidak Ada di WhatsApp*\n\n*_total hasil_*:-{}\n"
+        }
+    },
+    "RESTART": {
+        "DESC": "mulai ulang bot",
+        "INFO": "Memulai ulang Harap tunggu beberapa detik"
+    },
+    "EXTERNAL_PLUGIN": {
+        "DESC": "instal/daftar plugin eksternal",
+        "INALID": "url plugin tidak ada",
+        "INSTALLED": "_Plugin yang baru dipasang adalah_ :{}",
+        "NO_PLUGIN": "_Tidak ada plugin eksternal_",
+        "LIST": "Daftar Plugin Plugin Eksternal\n\n",
+        "REMOVE_DESC": "hapus plugin eksternal",
+        "REMOVED": "_plugin berhasil dihapus!, ketik restart untuk menghapus plugin_"
+    },
+    "FANCY": {
+        "DESC": "Membuat font teks yang indah",
+        "INFO": "Membalas teks atau mengetik teks setelah perintah dengan kode numerik\n*Contoh* : {}"
+    },
+    "FILTERS": {
+        "DESC": "atur/dapatkan/hapus filter pada grup ",
+        "NOT_FOUND": "_*tidak ada filter*_\n *Contoh* : {}",
+        "INVALID": "*mungkin salah!*\n*Contoh* :- *{}/stiker, video, gambar, audio"
+    },
+    "GPT":{
+        "DESC": "mengobrol dengan gpt",
+        "NEED_TEXT": "*_Perlu Teks untuk Mendapatkan hasil AI_*"
+    },
+    "USER": {
+        "JID": "dapatkan JID anggota atau pengguna yang diputar ulang",
+        "BLOCK_DESC": "blokir seseorang",
+        "UNBLOCK_DESC": "membuka blokir seseorang",
+        "PP": {
+            "DESC": "setel gambar profil bot",
+            "SUCCESS": "gambar profil diperbarui!"
+        },
+        "FULL_PP": {
+            "DESC": "atur gambar profil bot dengan resolusi apa pun",
+            "SUCCESS": "gambar profil diperbarui!"
+        }
+    },
+    "GROUP": {
+        "BOT_ADMIN": "*_Bot harus Admin_*",
+        "PROMOTE": {
+            "DESC": "promosikan pengguna",
+            "INFO": "{} Dipromosikan Sebagai admin"
+        },
+        "DEMOTE": {
+            "DESC": "turunkan pengguna",
+            "INFO": "{} Diturunkan dari admin"
+        },
+        "KICK": {
+            "DESC": "hapus pengguna dari grup",
+            "HELP": "untuk menghapus anggota\n*Contoh:* tendang semua\nkick _reply ke pengguna_",
+            "INFO": "{} dikeluarkan dari Grup"
+        },
+        "ADD": {
+            "DESC": "tambahkan seseorang ke grup",
+            "INVITE": "Tidak Dapat Menambahkan Pengiriman Undangan",
+            "NOT_FOUND": "Nomor ini tidak ada di whatsapp",
+            "LEFTED": "Tidak dapat menambahkan {} karena mereka baru saja keluar dari grup. Coba lagi nanti.",
+            "BLOCKED": "Tidak dapat menambahkan {} karena mereka memblokir nomor Bot, Coba lagi nanti.",
+            "ADDED": "{} Ditambahkan ke grup",
+            "ALLREADY": "{} Sudah ada di Grup."
+        },
+        "GPP": {
+            "DESC": "setel ikon grup",
+            "INFO": "*_ikon grup diperbarui!_*"
+        },
+        "FULL_GPP": {
+            "DESC": "setel ikon grup dengan ukuran penuh",
+            "INFO": "*_ikon grup diperbarui!_*"
+        },
+        "G_NAME": {
+            "DESC": "tetapkan nama grup",
+            "LENGTH_OVER": "*_Teks terlalu panjang_*",
+            "SUCCESS": "_nama grup berhasil diubah!_"
+        },
+        "G_DESC": {
+            "DESC": "atur deskripsi grup",
+            "LENGTH_OVER": "*_Teks terlalu panjang_",
+            "SUCCESS": "_deskripsi grup berhasil diubah!_"
+        },
+        "MUTE": {
+            "DESC": "bisu grup",
+            "SUCCESS": "_Grup Ditutup_"
+        },
+        "UNMUTE": {
+            "DESC": "suarakan grup",
+            "SUCCESS": "_Grup Dibuka!_"
+        },
+        "LOCK": {
+            "DESC": "hanya admin yang dapat mengedit info grup",
+            "SUCCESS": "_Grup Terkunci!_"
+        },
+        "UNLOCK": {
+            "DESC": "memungkinkan semua anggota mengedit info grup",
+            "SUCCESS": "_Grup Tidak Terkunci!_"
+        },
+        "LEFT": {
+            "DESC": "kiri dari grup"
+        },
+        "INVITE": {
+            "DESC": "buat tautan grup",
+            "INFO": "Tautan Grup {}"
+        },
+        "REVOKE": {
+            "DESC": "cabut tautan grup",
+            "INFO": "*_Tautan grup dicabut._"
+        },
+        "ACPT": {
+            "DESC": "Bergabung dengan Grup menggunakan tautan Grup",
+            "NOT_VALID": "_Masukkan tautan yang valid_"
+        },
+        "GET_INFO": {
+            "DESC": "dapatkan info grup berdasarkan url",
+            "GIVE_URL": "_Beri saya Url Goup_",
+            "INFO": "*id* : {}\n*subjek*: {}\n*nama* : {}\n*ukuran* : {}\n*batasan* : {}\n*umumkan* : { }\n*kreasi* : {}\n*deskripsi* : {}"
+        },
+        "AMUTE":{
+        "DESC":"grup bisu otomatis",
+            "NEED_TIME": "_butuh waktu (contoh :- 23:59)_",
+            "INVALID_FORMAT": "_Inavlid Format_\n_Contoh_ : {}",
+            "SUCCESS": "_Tutup Grup @_ {}",
+            "NOT_FOUND":" *_Tidak Ditemukan_*\n*Contoh:* _*{}*_\n*{}*",
+            "LIST_ALL": "*hasil untuk semua grup*\n\n",
+            "NO_DATA": "_Tidak ada data yang ditemukan_",
+            "DESC_DEL": "Hapus waktu diam dari DB",
+            "DESC_GET": "Nonaktifkan Daftar waktu bisu otomatis"
+       },
+       "AUTOUNMUTE": {
+        "DESC":"suarakan grup secara otomatis",
+            "NEED_TIME": "_butuh waktu (contoh :- 23:59)_",
+            "INVALID_FORMAT": "_Inavlid Format_\n_Contoh_ : {}",
+            "SUCCESS": "_Grup Terbuka @_ {}",
+            "DESC_DEL": "Hapus waktu senyap dari DB",
+            "DESC_GET": "Waktu suarakan otomatis Nonaktifkan Daftar",
+            "NOT_FOUND":" *_Tidak Ditemukan_*\n*Contoh:* _*{}*_\n*{}*",
+            "LIST_ALL": "*hasil untuk semua grup*\n\n",
+            "NO_DATA": "_Tidak ada data yang ditemukan_"
+            },
+            "PDM": {
+            "DESC":"kirim pesan promosikan demosi",
+            "NEED_ACTION": "*_perlu tindakan!_*\n*_Contoh:_* {}",
+            "INVALID": "*beri saya tindakan yang tepat?*\n*_Contoh:_* {}",
+            "ALREADY_ACTIVATED": "*_sudah diaktifkan!_*",
+            "SUCCESS_ON": "*_pdm diaktifkan!_*",
+            "ALREADY_DEACTIVATED": "*_sudah dinonaktifkan!_*",
+            "SUCCESS_OFF": "*_pdm dinonaktifkan!_*"
+            },
+            "ANTILINK":{
+            "DESC": "tindakan antilink untuk grup",
+            "NEED_ACTION": "*_perlu tindakan!_*\n*_Contoh:_* {}",
+            "INVALID": "*beri saya tindakan yang tepat?*\n*_Contoh:_ {}",
+            "ALREADY_ACTIVATED": "*_sudah diaktifkan!_*",
+            "SUCCESS_ON": "_berhasil menyetel antilink di grup ini_",
+            "ALREADY_DEACTIVATED": "*_sudah dinonaktifkan!_*",
+            "SUCCESS_OFF": "*_berhasil menghapus antilink dari grup ini_"
+            },
+            "ANTI_WORD":{
+            "DESC":"tindakan atau grup antikata",
+            "DESC_DEL": "Hapus anti kata dari DB",
+            "DESC_GET": "Dapatkan Daftar Kata",
+            "NEED_WORD": "_butuh kata?!_\nContoh: {}",
+            "ALLREADY": "_kata yang diberikan telah ditetapkan sebagai antiword_",
+            "NOT_FOUND":" *_Tidak Ditemukan_*\n*Contoh:* _*{}*_\n*{}*",
+            "LIST_ALL": "*hasil untuk semua grup*\n\n",
+            "NO_DATA": "_Tidak ada data yang ditemukan_"
+            },
+            "ANTI_FAKE": {
+            "DESC_ON":"tindakan anti-palsu untuk grup",
+            "DESC_DEL": "Hapus nomor palsu Dari DB",
+            "DESC_GET": "dapatkan Daftar Nomor Palsu",
+            "NEED_NUMBER": "_berikan saya awalan Nomor palsu_\nContoh: {}",
+            "NO_NUMBER": "*Butuh Nomor*",
+            "SUCCESS": "_*berhasil menyetel nomor palsu!*_",
+            "ALLREDY": "_nomor yang diberikan telah ditetapkan sebagai antifake_",
+            "NO_FAKE": "*_Ada nomor palsu_*\n*Contoh* : {} _untuk mendapatkan nomor palsu_\n*{}* _untuk mendapatkan daftar nomor palsu_",
+            "NOT_EXIST": "*_Anda tidak boleh menetapkan nomor ini sebagai palsu_*\n*{}* _untuk mendapatkan nomor palsu_\n*{}* _untuk mendapatkan daftar nomor palsu_",
+            "NOT_FOUND":"*_Tidak Ditemukan_*\n*{}*\n*{}*",
+            "LIST_ALL": "*hasil untuk semua grup*\n\n",
+            "NO_DATA": "_Tidak ada data yang ditemukan_"
+            }
+        },
+            "HEROKU":{
+                "DESC":"perbarui bot Anda ke versi terbaru!",
+                "UPDATE_ARGS":"periksa pembaruan,perbarui sekarang,perbarui periksa",
+                "ALLREDY": "*_sudah diperbarui_*",
+                "LIST_UPDATE":"*pembaruan yang tersedia*\n\n",
+                "COMMITS":"*waktu* : {}\n*komit* : {}\n"
+            },
+            "IMG":{
+                "RMBG_DESC": "Hapus bg gambar",
+                "IMG_DESC": "pencarian gambar untuk permintaan Anda"
+            },
+            "INSTA":{
+                "DESC":"unduh media dari instgram",
+                "NEED_URL":"_Beri saya url instgram!",
+                "NOT_VALID": "bukan url yang valid"
+            },
+            "PERMIT":{
+                "DESC": "memberi pengguna akses cmds utama",
+                "INVALID_FORMAT":"*format salah*\n```Contoh:-``` {}",
+                "SUDO":"*_Karena Anda telah sudo mengakses bot ini! tidak perlu meminta izin_*"
+            },
+            "LYRICS":{
+                "DESC":"Berikan lirik",
+                "RESPONCE": "*artis*: {}\n*judul*: {}"
+            },
+            "GENERAL":{
+                "URL_DESC":"konversi media ke url",
+                "TINY_DESC": "penyingkat tautan",
+                "WEB_SS": "dapatkan tangkapan layar url",
+                "PDF": "hasilkan pdf dari url",
+                "TAKE_DESC": "untuk mengubah metadata aduio menjadi gambar/judul/deskripsi",
+                "IMG_NEED": "tidak bisa mendapatkan img!\ncoba {}\n{}",
+                "EMIX_DESC": "dua emoji menjadi satu stiker",
+                "NEED_EMOJI": "*butuh dua emoji*,\n_Contoh_ {} 🥺+😹"
+            },
+            "MISC":{
+                "CALC_DESC": "lakukan operasi arithemetc menggunakan bot",
+                "BS64_DESC": "konversi ascii ke base64",
+                "BS_NEED": "*_Masukkan teks untuk mengonversi base64_*",
+                "BS_DEC_DESC": "konversi base64 ke ascii",
+                "BS_DEC_NEED": "_Masukkan teks untuk mengonversi base64_",
+                "QR_DESC": "hasilkan/ulangi qr",
+                "AGE_DESC": "Dapatkan usia pengguna berdasarkan DOB mereka",
+                "AGE_FORMAT": "*_masukkan tanggal lahir Anda_*\n_{}_:tahun/bulan/hari_*"
+            },
+            "OCR":{
+                "DESC": "Pengenalan Karakter Optik",
+                "NEED": "gambar terbaru untuk Pengenalan Karakter Optik"
+            },
+            "PING_DESC": "Untuk memeriksa ping",
+            "YT":{
+                "PLAY_DESC":"unduh media dari youtube",
+                "NEED_TEXT": "*_beri saya url atau cari konten_*",
+                "SONG_DESC": "unduh lagu dari youtube",
+                "VIDEO_DESC": "unduh video dari youtube",
+                "INFO_SONG": "UNDUH LAGU YOUTUBE",
+                "INFO_VIDEO": "UNDUH VIDEO YOUTUBE"
+            },
+            "SCRAP": {
+                "GOOGLE_DESC":"cari dan dapatkan data dari google",
+                "RING_DESC": "dapatkan nada dering",
+                "RING_LIST": "NADA DERING TERSEDIA",
+                "WEATHER_DESC": "berikan iklim pada tempat tertentu",
+                "NEED_PLACE":"beri saya tempat untuk memeriksa iklim mereka"
+            },
+            "SETTINGS":{
+                "DESC": "untuk mengubah var bot",
+                "LIST": "Pembaru Pengaturan",
+                "SPAM_DELAY": "MANAJER SPAM (GROUP/PM) PENUNDAAN 3S",
+                "ONLINE": "TAMPILKAN BOT ONLINE SEPANJANG WAKTU",
+                "REACT_ALL": "BERIKAN REAKSI PADA SETIAP PESAN",
+                "REACT_CMD": "BERIKAN REAKSI HANYA UNTUK PESAN CMD",
+                "REACT": "REAKSI TERHADAP EMOSI",
+                "READ_MESSAGE": "BACA SEMUA PESAN",
+                "READ_CMD": "PERINTAH BACA",
+                "BGM_BOT": "BGM BOT (Malayalam)",
+                "MODE": "MODE (publik/pribadi)",
+                "BLOCK_PM": "PM BLOK",
+                "CALL_BLOCK": "BLOK PANGGILAN (PM)",
+                "STATUS": "LIHAT SEMUA STATUS",
+                "SAVE_STATUS": "KIRIM SEMUA STATUS KE PM ANDA",
+                "PM_CHAT_BOT": "CHAT BOT PM",
+                "GROUP_CHAT_BOT": "CHAT BOT GROUP",
+                "PRESENCE": "Kehadiran BOT",
+                "SUDO_ADMIN": "BERI ADMIN SUDO AKSESORIS",
+                "REJECT_CALL": "TOLAK PANGGILAN",
+                "SPAM_WARN": "SPAM PERINGATAN (GROUP)",
+                "BAD_WORD_WARN": "PERINGATAN KATA BURUK (GROUP)",
+                "BAD_WORD_BLOCK": "BLOK KATA BURUK (PM)",
+                "SPAM_BLOCK": "SPAM BLOK (PM)",
+                "TO_UPDATE": "_Kirim nomor sebagai balasan pembaruan_"
+            },
+            "STICKER": {
+                "DESC": "untuk mengkonversi video pendek atau gambar menjadi stiker dariat",
+                "ERROR":"*_Balas ke media yang didukung_*"
+            },
+            "TAG_DESC": "tag anggota grup",
+            "TOGGLE":{
+                "DESC": "Aktifkan atau Nonaktifkan Cmd",
+                "LIST": "*_daftar perintah sakelar!_*\n\n",
+                "METHODE": "*Contoh :* .{} ping mati",
+                "ERROR": "_cmd yang diberikan tidak ada_",
+                "ERROR_KILL": "Apakah kamu benar-benar ingin membunuhku?"
+            },
+            "TRT":{
+                "DESC":"Transfer Google",
+                "NEED": "*Membalas pesan teks*\n_Contoh : trt ml_\ntrt en & ```membalas teks```",
+                "NEED_LANG": "*_beri saya bahasa yang ingin Anda konversi_*"
+            },
+            "TTS_DESC":"teks ke ucapan",
+            "VARS":{
+                "GET_DESC":"Dapatkan var bot",
+                "ERROR": "*_tidak ada variabel seperti itu_*\n_!jika Anda membutuhkan semua variabel;_\nContoh : _{}_*",
+                "PREFIX":{
+                    "DESC":"ubah awalan bot",
+                    "METHODE":"_Contoh:- {} get_\n_{} ★_"
+                },
+                "A_DATA":{
+                    "DESC":"ubah data audio",
+                    "METHODE": "_Contoh:- {} get_\n_{} inrl;md;https://example.jpeg_"
+                },
+                "BIO":{
+                    "DESC":"ubah bio setiap menit",
+                    "METHODE": "_Contoh:- {} dapatkan_\n_{} apa😶_"
+                },
+                "LANG":{
+                    "DESC":"ubah bahasa bot",
+                    "METHODE": "_Contoh:- {} get_\n_{} ml_"
+                },
+                "ANTIBOT":{
+                    "DESC":"blokir penggunaan bot dari jid tertentu",
+                    "METHODE": "_Contoh:- {} get_\n_{} 7364832658762@g.us_",
+                    "NOT_EXIST":"*_jid ini tidak ada di daftar obrolan yang diblokir_*"
+                },
+                "S_DATA":{
+                    "DESC":"ganti info stiker",
+                    "METHODE": "_Contoh:- {} get_\n_{} inrl;md_"
+                },
+                "B_INFO":{
+                    "DESC":"ubah info bot",
+                    "METHODE": "_Contoh:- {} get_\n_{} inrl;md;https://emage.jpeg;chat.whatsapp.com/74328kdm_"
+                },
+                "SUDO":{
+                    "DESC":"berikan tindakan sudo untuk pengguna tertentu",
+                    "METHODE": "_Contoh:- {} get_\n_{} 7364832658762@g.us <reply>\n{} hapus 7648723465@s.whatsapp.net_",
+                    "NOT_EXIST":"*_jid ini tidak ada di sudo list_*"
+                }
+            },
+            "WARN":{
+                "DESC":"peringatkan pengguna di grup",
+                "METHODE": "*_Contoh:-_*\n*{}* ```balas ke pengguna```\n*{}* ```reset```\n*{}* ```dapatkan ```",
+                "LIST":"*Daftar Pengguna*\n\n",
+                "INFO":"*pengguna:* {}\n*alasan:* {}\n*grup:* {}@g.us\n\n",
+                "MAX":"_Peringatan maksimal tercapai, dikeluarkan!_"
+            }
+    }
