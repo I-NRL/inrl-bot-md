@@ -33,7 +33,7 @@ inrl({
         if (!BotAdmin) return await message.reply(lang.GROUP.BOT_ADMIN);
         if(config.ADMIN_SUDO_ACCESS != "true" && !message.client.isCreator) return await message.reply(lang.BASE.NOT_AUTHR)
         if (!admin && !message.client.isCreator) return await message.reply(lang.BASE.NOT_AUTHR)
-        if(!message.quoted.msg) return message.send(lang.BASE.NEED.format("message"));
+        if(!message.reply_message.msg) return message.send(lang.BASE.NEED.format("message"));
         return await message.client.sendMessage(message.from, {
             delete: message.reply_message.data.key
         })
@@ -124,9 +124,9 @@ inrl({
     react : "💯",
     type: "general"
 }, async (message) => {
-    if (message.quoted.sender) {
+    if (message.reply_message.sender) {
         await message.client.sendMessage(message.from, {
-            text: message.quoted.sender
+            text: message.reply_message.sender
         }, {
             quoted: message
         })
@@ -146,7 +146,7 @@ inrl({
     fromMe :true
 }, async (message) => {
     if (message.isGroup) {
-        await message.client.updateBlockStatus(message.quoted.sender, "block") // Block user
+        await message.client.updateBlockStatus(message.reply_message.sender, "block") // Block user
     } else {
         await message.client.updateBlockStatus(message.from, "block")
     }
@@ -159,7 +159,7 @@ inrl({
     fromMe :true
 }, async (message) => {
     if (message.isGroup) {
-        await message.client.updateBlockStatus(message.quoted.sender, "unblock") // Unblock user
+        await message.client.updateBlockStatus(message.reply_message.sender, "unblock") // Unblock user
     } else {
         await message.client.updateBlockStatus(message.from, "unblock") // Unblock user
     }
