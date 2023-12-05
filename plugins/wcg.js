@@ -1,7 +1,5 @@
 const {inrl,WCG} = require("../lib")
 
-removed this shit!!
-
 inrl({
     on: "text",
     pattern: "wcg",
