@@ -30,7 +30,7 @@ module.exports = {
     DISABLE_GRP : toBool(process.env.DISABLE_GRP || "false"),
     CHATBOT_PM : toBool(process.env.CHATBOT_PM || "false"),
     CHATBOT_GRP : toBool(process.env.CHATBOT_GRP || "false"),
-    ERROR_MSG : toBool(process.env.ERROR_MSG || "false"),
+    ERROR_MSG : toBool(process.env.ERROR_MSG || "true"),
     AJOIN: toBool(process.env.AJOIN || 'false'),
     WARNCOUND : process.env.WARNCOUND || 5,
     ALIVE_DATA : process.env.ALIVE_DATA || "_iam alive now &sender_",
