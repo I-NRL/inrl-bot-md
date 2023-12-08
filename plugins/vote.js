@@ -31,7 +31,7 @@ inrl({
 	const {
 		participants
 	} = await message.client.groupMetadata(message.jid);
-	return await m.send({
+	return await message.send({
 		name: match.split(/[,|;]/)[0],
 		values: options,
 		withPrefix: false,
