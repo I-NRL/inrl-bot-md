@@ -160,7 +160,7 @@ inrl({
     fromMe: true
 }, async (message, match) => {
         if (!message.reply_message.image) return await message.reply(lang.BASE.NEED.format("image message"));
-        let download = await message.client.downloadMediaMessage(message.reply_message.imageMessage);
+        let download = await message.client.downloadMediaMessage(message.reply_message.image);
         await message.client.updateProfilePicture(message.botNumber, download);
         return message.reply(lang.USER.PP.SUCCESS);
 });
@@ -173,6 +173,6 @@ inrl({
 }, async (message, match) => {
         if (!message.reply_message.image) return await message.reply(lang.BASE.NEED.format("image message"));
         let download = await message.reply_message.download();
-        await message.updateProfilePicture(message.user.id, download);
+        await message.updateProfilePicture(message.botNumber, download);
         return message.reply(lang.USER.FULL_PP.SUCCESS);
 });
