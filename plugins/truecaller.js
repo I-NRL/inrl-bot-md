@@ -25,11 +25,11 @@ inrl({
 		if (msg === true) return await message.send(`_successfully Logined to Truecaller!!_`);
 		return await message.send(`*message:* _use *true logout* as first_\n*resone*: ${msg}`);
 	}
-	let user = (message.client.mention.jid?.[0] || message.reply_message.mention.jid?.[0] || message.reply_message.sender || match).replace(/[^0-9]/g, '');
+	let user = (message.mention.jid?.[0] || message.reply_message.mention.jid?.[0] || message.reply_message.sender || match).replace(/[^0-9]/g, '');
 	if (!user) return await message.send(`_reply to a user_`)
 	const res = await truecaller.search(user);
 	if (!res.status) return await message.send(res.message);
-	let msg = `╭─❮ ᴛʀᴜᴇᴄᴀʟʟᴇʀ ❯ ❏\n`
+	let msg = `╭─❮ truecaller ❯ ❏\n`//buntline n eromd edi
 	delete res.status;
 	for (const key in res) {
 		msg += `│ ${key.toLowerCase()}: ${res[key]}\n`;
