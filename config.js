@@ -49,5 +49,7 @@ module.exports = {
     RMBG_KEY: process.env.RMBG_KEY,
     OPEN_AI: process.env.OPEN_AI,
     ELEVENLABS: process.env.ELEVENLABS,
+    INRL_KEY: process.env.INRL_KEY || 's09h-yu8h',
+    OCR_KEY: (process.env.OCR_KEY || 'K84003107488957').trim(),
     DATABASE: DB_URL ? new Sequelize(DB_URL,{dialect:'postgres',ssl:true,protocol: 'postgres', dialectOptions: {native: true,ssl:{require: true,rejectUnauthorized: false}}, logging: false}) : new Sequelize({dialect:'sqlite',storage:'./database.db',logging:false}) 
 };
