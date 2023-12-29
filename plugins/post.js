@@ -17,7 +17,7 @@ inrl({
 	const form = new FormData();
 	form.append('file', imageBuffer, 'bt.jpg');
 	form.append('key', config.OCR_KEY);
-	const response = await axios.post(Config.BASE_URL + 'post/ocr', form, {
+	const response = await axios.post(config.BASE_URL + 'post/ocr', form, {
 		headers: form.getHeaders()
 	});
 	if (!response.data.status) return message.send("_Not Found_\n_may be api key limit exhausted_\n_*get key from:* https://ocr.space/ocrapi/freekey_");
