@@ -10,7 +10,7 @@
 
 2. Scan Qr
     <br>
-<a href="https://inrl-web-production.up.railway.app/ viwe/friendpage"><img title="SCAN QR" src="https://img.shields.io/badge/GET SESSION-h?color=black&style=for-the-badge&logo=msi"></a>
+<a href="https://inrl-web-production.up.railway.app/viwe/friendpage"><img title="SCAN QR" src="https://img.shields.io/badge/GET SESSION-h?color=black&style=for-the-badge&logo=msi"></a>
 
 
 
@@ -20,19 +20,19 @@
 
 #### Deploy To Heroku 
 
-<a href="https://inrl-web-production.up.railway.app/ deploy/heroku"><img title="INRL-MD Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
+<a href="https://inrl-web-production.up.railway.app/deploy/heroku"><img title="INRL-MD Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
 
 
 ---
 #### Deploy To Railway
 
-<a href="https://inrl-web-production.up.railway.app/ info/deploy/railway"><img title="INRL-MD Deploy Railway" src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
+<a href="https://inrl-web-production.up.railway.app/info/deploy/railway"><img title="INRL-MD Deploy Railway" src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
 
 
 ---
 #### Deploy To Koyeb
 
-<a href="https://inrl-web-production.up.railway.app/ info/deploy/koyeb"><img title="INRL-MD Deploy Koyeb" src="https://img.shields.io/badge/DEPLOY KOYEB-h?color=black&style=for-the-badge&logo=koyeb"></a>
+<a href="https://inrl-web-production.up.railway.app/info/deploy/koyeb"><img title="INRL-MD Deploy Koyeb" src="https://img.shields.io/badge/DEPLOY KOYEB-h?color=black&style=for-the-badge&logo=koyeb"></a>
 
 ---
 #### Deploy To Replit
@@ -64,6 +64,16 @@ npm start
  
  ### Support
 
+SUPPORT GROUP
+
+<a href="https://chat.whatsapp.com/F6VWuK677vB1kxXbV8m5II"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
+
+---
+### EXTERNAL PLUGINS
+
+[Click Here](https://inrl-web-production.up.railway.app/plugins/list)
+
+---
 SUPPORT GROUP
 
 <a href="https://chat.whatsapp.com/F6VWuK677vB1kxXbV8m5II"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
