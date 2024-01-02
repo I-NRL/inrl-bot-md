@@ -1,12 +1,9 @@
 const {
     inrl,
     getBuffer,
-    getLang
+    lang,
+    config
 } = require('../lib');
-let lang = getLang()
-const {
-    BASE_URL
-} = require('../config');
 inrl({
     pattern: "ttp",
     type: "misc",
@@ -14,12 +11,8 @@ inrl({
 }, async (message, match) => {
     match = match || message.reply_message.text;
     if (!match) return await message.send(lang.BASE.TEXT);
-    const res = `${BASE_URL}api/ttp?text=${match}`
-    return await message.client.sendMessage(message.jid, {
-        image: {
-            url: res
-        }
-    });
+    const res = `${config.BASE_URL}api/ttp?text=${match}`
+    return await message.send({url: res}, {},'image');
 });
 inrl({
     pattern: "attp",
@@ -28,9 +21,6 @@ inrl({
 }, async (message, match) => {
     match = match || message.reply_message.text;
     if (!match) return await message.send(lang.BASE.TEXT);
-    const res = await getBuffer(`${BASE_URL}api/attp?text=${match}`);
-    return await message.client.sendFile(message.chat, res, "", message, {
-        asSticker: true,
-        categories: ["😑"],
-    });
+    const res = await getBuffer(`${config.BASE_URL}api/attp?text=${match}`);
+    return await message.send(res,{},'sticker');
 });
