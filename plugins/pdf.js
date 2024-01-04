@@ -42,7 +42,7 @@ inrl({
                         }
                         doc.end();
                         const pdfBuffer = await stream2buffer(doc);
-                        return await message.message.send(pdfBuffer,
+                        return await message.send(pdfBuffer,
                                 {filename: 'document.pdf'
                         },'document');
                 } else if (message.reply_message.image) {
