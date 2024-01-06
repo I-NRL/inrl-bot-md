@@ -10,14 +10,21 @@ const {
 } = require('../lib')
 
 inrl({
-    pattern: 'list',
-    desc: lang.LIST.DESC,
-    react: "💯",
-    type: 'info'
+	pattern: 'list',
+	desc: lang.LIST.DESC,
+	react: "💯",
+	type: 'info'
 }, async (message) => {
-    let count =1, list ="";
-    commands.map((cmd=>{cmd.pattern&&cmd.desc ? list +=`${count++} *${cmd.pattern.replace(/[^a-zA-Z0-9,-]/g,"")}*\n_${cmd.desc}_\n\n`:c+=`${count++} *${cmd.pattern?cmd.pattern.replace(/[^a-zA-Z0-9,-]/g,""):''}*\n`}));
-    return await message.send(Fancy(7,list));
+	let count = 1,
+		list = "";
+	commands.map((cmd => {
+		if (cmd.pattern && cmd.desc) {
+			list += `${count++} *${cmd.pattern.replace(/[^a-zA-Z0-9,-]/g,"")}*\n_${cmd.desc}_\n\n`;
+		} else {
+			list += `${count++} *${cmd.pattern?cmd.pattern.replace(/[^a-zA-Z0-9,-]/g,""):''}*\n`
+		}
+	}));
+	return await message.send(Fancy(7, list));
 });
 
 inrl({
