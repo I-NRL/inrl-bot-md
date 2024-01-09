@@ -10,7 +10,7 @@ module.exports = {
         API_KEY: process.env.HEROKU_API_KEY,
         APP_NAME: process.env.HEROKU_APP_NAME
     },
-    BASE_URL : "https://inrl-web-production.up.railway.app/",
+    BASE_URL : "https://upper-romy-inrl-bot.koyeb.app/",
     REPO: "inrl-official/inrl-bot-md",
     BGM_URL : process.env.BGM_URL || "null",
     REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
