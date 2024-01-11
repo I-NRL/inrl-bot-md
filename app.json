@@ -1,6 +1,6 @@
 {
-  "name": "inrl",
-  "description": "inrl-wa-bot-md",
+  "name": "HASSAN Elium",
+  "description": "Hassan-wa-bot-md",
   "keywords": [],
   "stack": "container",
   "env": {
@@ -27,7 +27,7 @@
     "BOT_INFO": {
       "description": "baasic bot configration",
       "required": true,
-      "value": "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg"
+      "value": "HASSAN Elium-BOT-MD;INRL;https://i.imgur.com/yCQWX01.jpeg"
     },
     "PREFIX": {
       "description": "bot preifx  ., [.,!], false",
@@ -37,12 +37,12 @@
     "AUDIO_DATA": {
       "description": "audio metadata",
       "required": true,
-      "value": "ᴍᴜꜱɪᴄ;ᴋɪᴅ;https://i.imgur.com/DyLAuEh.jpg"
+      "value": "ᴍᴜꜱɪᴄ; HASSAN Elium;https://i.imgur.com/yCQWX01.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker data",
       "required": true,
-      "value": "inrl;inrl"
+      "value": "HASSAN; brohi"
     },
     "AUTO_STATUS_VIEW": {
       "description": "automatic read status",
