@@ -35,7 +35,7 @@ module.exports = {
     AJOIN: toBool(process.env.AJOIN || 'false'),
     WARNCOUND : process.env.WARNCOUND || 5,
     ALIVE_DATA : process.env.ALIVE_DATA || "_iam alive now &sender_",
-    BOT_INFO : process.env.BOT_INFO || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
+    BOT_INFO : process.env.BOT_INFO || "adarsh🧃😚;https://telegra.ph/file/6fc361236319287e4f2c1.jpg",
     WORKTYPE : process.env.WORKTYPE || "private",
     PREFIX : process.env.PREFIX || "[.,!]",
     LANG : process.env.LANG || "en",
