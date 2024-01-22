@@ -1,5 +1,5 @@
 {
-  "name": "inrl",
+  "name":ibrar king "inrl",
   "description": "wa-bot-md",
   "keywords": [],
   "stack": "container",
@@ -9,12 +9,12 @@
       "required": true,
       "value": ""
     },
-    "HEROKU_API_KEY": {
+    "HEROKU_API_KEY": {ibrarjutt
       "description": "For updating bot and setting vars remotely",
       "required": true,
       "value": ""
     },
-    "HEROKU_APP_NAME": {
+    "HEROKU_APP_NAME": {ibrarsp
       "description": "Exact name which you gave at the top",
       "required": true,
       "value": ""
@@ -24,12 +24,12 @@
       "required": true,
       "value": "private"
     },
-    "BOT_INFO": {
+    "BOT_INFO": {jutt Kgf
       "description": "baasic bot configration",
       "required": true,
       "value": "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg"
     },
-    "PREFIX": {
+    "PREFIX": {.
       "description": "bot preifx  ., [.,!], false",
       "required": true,
       "value": "."
@@ -69,7 +69,7 @@
       "required": true,
       "value": "false"
     },
-    "SAVE_STATUS": {
+    "SAVE_STATUS": { true
       "description": "save all status message",
       "required": true,
       "value": "null"
