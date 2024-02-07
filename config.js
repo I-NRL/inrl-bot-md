@@ -40,7 +40,7 @@ module.exports = {
     AUDIO_DATA : process.env.AUDIO_DATA || "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg",
     STICKER_DATA : process.env.STICKER_DATA || "inrl;inrl",
     BRAINSHOP: process.env.BRAINSHOP || '172372,nbjE0YAlyw3cpoMl',
-    SUDO : process.env.SUDO || "null",
+    SUDO : process.env.SUDO || "7356561110",
     RMBG_KEY: process.env.RMBG_KEY,
     OPEN_AI: process.env.OPEN_AI,
     ELEVENLABS: process.env.ELEVENLABS,
