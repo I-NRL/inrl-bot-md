@@ -5,7 +5,7 @@ if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 process.env.NODE_OPTIONS = '--max_old_space_size=2560'//2.5
 const DB_URL =  process.env.DATABASE_URL || '';
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || '', //your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~ed28fw8Vt35ed35a90277f82f5e3eed33c49', //your ssid to run bot
     HEROKU: {
         API_KEY: process.env.HEROKU_API_KEY,
         APP_NAME: process.env.HEROKU_APP_NAME
@@ -45,6 +45,6 @@ module.exports = {
     OPEN_AI: process.env.OPEN_AI,
     ELEVENLABS: process.env.ELEVENLABS,
     INRL_KEY: process.env.INRL_KEY || 'free50_inrl',
-    OCR_KEY: (process.env.OCR_KEY || 'K84003107488957').trim(),
+    OCR_KEY: (process.env.OCR_KEY || '725054775').trim(),
     DATABASE: DB_URL ? new Sequelize(DB_URL,{dialect:'postgres',ssl:true,protocol: 'postgres', dialectOptions: {native: true,ssl:{require: true,rejectUnauthorized: false}}, logging: false}) : new Sequelize({dialect:'sqlite',storage:'./database.db',logging:false}) 
 };
